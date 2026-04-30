@@ -1,0 +1,23 @@
+﻿# LootRollType.Need Field
+
+Represents the need value.
+
+## Namespace
+[Bots.DungeonBuddy.Enums](../../../../../../namespaces/Bots/DungeonBuddy/Enums.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+public const LootRollType Need
+```
+
+## Field Value
+
+Type: [LootRollType](../../LootRollType.md)
+The need value.
+
+## See Also
+[LootRollType Enumeration](../../LootRollType.md)
+[Bots.DungeonBuddy.Enums Namespace](../../../../../../namespaces/Bots/DungeonBuddy/Enums.md)

@@ -1,0 +1,24 @@
+﻿# HotspotCollection.HotspotCollection Constructor
+
+Initializes a new instance of the HotspotCollection class.
+
+## Namespace
+[Styx.Logic.Profiles](../../../../../../namespaces/Styx/Logic/Profiles.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+public HotspotCollection(int capacity)
+```
+
+## Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| capacity | int | The capacity. |
+
+## See Also
+[HotspotCollection Class](../../HotspotCollection.md)
+[Styx.Logic.Profiles Namespace](../../../../../../namespaces/Styx/Logic/Profiles.md)

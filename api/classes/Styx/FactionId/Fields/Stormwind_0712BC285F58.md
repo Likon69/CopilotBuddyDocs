@@ -1,0 +1,23 @@
+﻿# FactionId.Stormwind Field
+
+Represents the stormwind value.
+
+## Namespace
+[Styx](../../../../namespaces/Styx.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+public const FactionId Stormwind
+```
+
+## Field Value
+
+Type: [FactionId](../../FactionId.md)
+The stormwind value.
+
+## See Also
+[FactionId Enumeration](../../FactionId.md)
+[Styx Namespace](../../../../namespaces/Styx.md)

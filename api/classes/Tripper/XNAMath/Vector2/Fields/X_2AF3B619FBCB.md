@@ -1,0 +1,23 @@
+﻿# Vector2.X Field
+
+Stores the x.
+
+## Namespace
+[Tripper.XNAMath](../../../../../namespaces/Tripper/XNAMath.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+public float X
+```
+
+## Field Value
+
+Type: float
+The x.
+
+## See Also
+[Vector2 Struct](../../Vector2.md)
+[Tripper.XNAMath Namespace](../../../../../namespaces/Tripper/XNAMath.md)

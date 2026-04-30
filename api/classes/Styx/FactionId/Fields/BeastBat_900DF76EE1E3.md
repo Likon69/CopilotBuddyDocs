@@ -1,0 +1,23 @@
+﻿# FactionId.BeastBat Field
+
+Represents the beast bat value.
+
+## Namespace
+[Styx](../../../../namespaces/Styx.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+public const FactionId BeastBat
+```
+
+## Field Value
+
+Type: [FactionId](../../FactionId.md)
+The beast bat value.
+
+## See Also
+[FactionId Enumeration](../../FactionId.md)
+[Styx Namespace](../../../../namespaces/Styx.md)

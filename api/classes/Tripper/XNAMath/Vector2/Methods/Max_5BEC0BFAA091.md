@@ -1,0 +1,26 @@
+﻿# Vector2.Max Method
+
+Returns the maximum value.
+
+## Namespace
+[Tripper.XNAMath](../../../../../namespaces/Tripper/XNAMath.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+public static void Max(ref Vector2 v1, ref Vector2 v2, out Vector2 result)
+```
+
+## Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| v1 | [Vector2](../../Vector2.md) | The v1. |
+| v2 | [Vector2](../../Vector2.md) | The v2. |
+| result | [Vector2](../../Vector2.md) | The result. |
+
+## See Also
+[Vector2 Struct](../../Vector2.md)
+[Tripper.XNAMath Namespace](../../../../../namespaces/Tripper/XNAMath.md)

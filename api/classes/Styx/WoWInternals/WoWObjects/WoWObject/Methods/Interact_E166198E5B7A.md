@@ -1,0 +1,24 @@
+﻿# WoWObject.Interact Method
+
+Interacts with the object.
+
+## Namespace
+[Styx.WoWInternals.WoWObjects](../../../../../../namespaces/Styx/WoWInternals/WoWObjects.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+public virtual void Interact(bool ignoreTimer)
+```
+
+## Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| ignoreTimer | bool | The ignore timer. |
+
+## See Also
+[WoWObject Class](../../WoWObject.md)
+[Styx.WoWInternals.WoWObjects Namespace](../../../../../../namespaces/Styx/WoWInternals/WoWObjects.md)

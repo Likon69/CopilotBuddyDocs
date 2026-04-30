@@ -1,0 +1,30 @@
+﻿# Navigator.MoveTo Method
+
+Moves to to.
+
+## Namespace
+[Styx.Logic.Pathing](../../../../../../namespaces/Styx/Logic/Pathing.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+public static MoveResult MoveTo(WoWPoint destination, string destinationName)
+```
+
+## Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| destination | [WoWPoint](../../WoWPoint.md) | The destination. |
+| destinationName | string | The destination name. |
+
+## Return Value
+
+Type: [MoveResult](../../MoveResult.md)
+The result of the operation.
+
+## See Also
+[Navigator Class](../../Navigator.md)
+[Styx.Logic.Pathing Namespace](../../../../../../namespaces/Styx/Logic/Pathing.md)

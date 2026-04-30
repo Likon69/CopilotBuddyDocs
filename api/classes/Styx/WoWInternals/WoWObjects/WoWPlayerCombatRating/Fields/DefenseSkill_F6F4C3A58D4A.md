@@ -1,0 +1,23 @@
+﻿# WoWPlayerCombatRating.DefenseSkill Field
+
+Represents the defense skill value.
+
+## Namespace
+[Styx.WoWInternals.WoWObjects](../../../../../../namespaces/Styx/WoWInternals/WoWObjects.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+public const WoWPlayerCombatRating DefenseSkill
+```
+
+## Field Value
+
+Type: [WoWPlayerCombatRating](../../WoWPlayerCombatRating.md)
+The defense skill value.
+
+## See Also
+[WoWPlayerCombatRating Enumeration](../../WoWPlayerCombatRating.md)
+[Styx.WoWInternals.WoWObjects Namespace](../../../../../../namespaces/Styx/WoWInternals/WoWObjects.md)

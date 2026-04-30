@@ -1,0 +1,29 @@
+﻿# ProfileHelperFunctionsBase.Random Method
+
+Returns a random value.
+
+## Namespace
+[Styx.Logic.Profiles.Quest](../../../../../../../namespaces/Styx/Logic/Profiles/Quest.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+protected int Random(int max)
+```
+
+## Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| max | int | The max. |
+
+## Return Value
+
+Type: int
+The result of the operation.
+
+## See Also
+[ProfileHelperFunctionsBase Class](../../ProfileHelperFunctionsBase.md)
+[Styx.Logic.Profiles.Quest Namespace](../../../../../../../namespaces/Styx/Logic/Profiles/Quest.md)

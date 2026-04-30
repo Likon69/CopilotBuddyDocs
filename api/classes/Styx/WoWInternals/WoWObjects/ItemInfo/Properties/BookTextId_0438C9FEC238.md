@@ -1,0 +1,23 @@
+﻿# ItemInfo.BookTextId Property
+
+Gets the book text id.
+
+## Namespace
+[Styx.WoWInternals.WoWObjects](../../../../../../namespaces/Styx/WoWInternals/WoWObjects.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+public int BookTextId { get; }
+```
+
+## Property Value
+
+Type: int
+The book text id.
+
+## See Also
+[ItemInfo Class](../../ItemInfo.md)
+[Styx.WoWInternals.WoWObjects Namespace](../../../../../../namespaces/Styx/WoWInternals/WoWObjects.md)

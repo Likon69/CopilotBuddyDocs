@@ -1,0 +1,23 @@
+﻿# LootRollType.Greed Field
+
+Represents the greed value.
+
+## Namespace
+[Bots.DungeonBuddy.Enums](../../../../../../namespaces/Bots/DungeonBuddy/Enums.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+public const LootRollType Greed
+```
+
+## Field Value
+
+Type: [LootRollType](../../LootRollType.md)
+The greed value.
+
+## See Also
+[LootRollType Enumeration](../../LootRollType.md)
+[Bots.DungeonBuddy.Enums Namespace](../../../../../../namespaces/Bots/DungeonBuddy/Enums.md)

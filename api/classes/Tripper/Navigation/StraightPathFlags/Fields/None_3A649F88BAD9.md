@@ -1,0 +1,23 @@
+﻿# StraightPathFlags.None Field
+
+No flags specified.
+
+## Namespace
+[Tripper.Navigation](../../../../../namespaces/Tripper/Navigation.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+public const StraightPathFlags None
+```
+
+## Field Value
+
+Type: [StraightPathFlags](../../StraightPathFlags.md)
+The none flag.
+
+## See Also
+[StraightPathFlags Enumeration](../../StraightPathFlags.md)
+[Tripper.Navigation Namespace](../../../../../namespaces/Tripper/Navigation.md)

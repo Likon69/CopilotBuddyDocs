@@ -1,0 +1,23 @@
+﻿# GameObjectFlags.InUse Field
+
+Indicates an in use.
+
+## Namespace
+[Styx.WoWInternals.WoWObjects](../../../../../../namespaces/Styx/WoWInternals/WoWObjects.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+public const GameObjectFlags InUse
+```
+
+## Field Value
+
+Type: [GameObjectFlags](../../GameObjectFlags.md)
+The in use flag.
+
+## See Also
+[GameObjectFlags Enumeration](../../GameObjectFlags.md)
+[Styx.WoWInternals.WoWObjects Namespace](../../../../../../namespaces/Styx/WoWInternals/WoWObjects.md)

@@ -1,0 +1,23 @@
+﻿# ItemInfo.SubClassId Property
+
+Gets the sub class id.
+
+## Namespace
+[Styx.WoWInternals.WoWObjects](../../../../../../namespaces/Styx/WoWInternals/WoWObjects.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+public int SubClassId { get; }
+```
+
+## Property Value
+
+Type: int
+The sub class id.
+
+## See Also
+[ItemInfo Class](../../ItemInfo.md)
+[Styx.WoWInternals.WoWObjects Namespace](../../../../../../namespaces/Styx/WoWInternals/WoWObjects.md)

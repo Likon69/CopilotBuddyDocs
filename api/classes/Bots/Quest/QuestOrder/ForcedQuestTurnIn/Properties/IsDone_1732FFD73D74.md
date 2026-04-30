@@ -1,0 +1,23 @@
+﻿# ForcedQuestTurnIn.IsDone Property
+
+Gets a value indicating whether is done. (Overrides ForcedBehavior.IsDone.)
+
+## Namespace
+[Bots.Quest.QuestOrder](../../../../../../namespaces/Bots/Quest/QuestOrder.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+public override bool IsDone { get; }
+```
+
+## Property Value
+
+Type: bool
+true if is done; otherwise, false.
+
+## See Also
+[ForcedQuestTurnIn Class](../../ForcedQuestTurnIn.md)
+[Bots.Quest.QuestOrder Namespace](../../../../../../namespaces/Bots/Quest/QuestOrder.md)

@@ -1,0 +1,23 @@
+﻿# InfoPanel.BGsWonPerHour Property
+
+Gets the b gs won per hour.
+
+## Namespace
+[Styx.Helpers](../../../../../namespaces/Styx/Helpers.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+public static float BGsWonPerHour { get; }
+```
+
+## Property Value
+
+Type: float
+The b gs won per hour.
+
+## See Also
+[InfoPanel Class](../../InfoPanel.md)
+[Styx.Helpers Namespace](../../../../../namespaces/Styx/Helpers.md)

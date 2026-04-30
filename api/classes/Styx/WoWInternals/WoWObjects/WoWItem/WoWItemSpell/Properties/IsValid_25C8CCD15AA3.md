@@ -1,0 +1,23 @@
+﻿# WoWItem.WoWItemSpell.IsValid Property
+
+Gets a value indicating whether is valid.
+
+## Namespace
+[Styx.WoWInternals.WoWObjects](../../../../../../../namespaces/Styx/WoWInternals/WoWObjects.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+public bool IsValid { get; }
+```
+
+## Property Value
+
+Type: bool
+true if is valid; otherwise, false.
+
+## See Also
+[WoWItem.WoWItemSpell Class](../../WoWItemSpell.md)
+[Styx.WoWInternals.WoWObjects Namespace](../../../../../../../namespaces/Styx/WoWInternals/WoWObjects.md)

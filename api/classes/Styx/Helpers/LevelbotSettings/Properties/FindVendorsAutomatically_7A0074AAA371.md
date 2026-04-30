@@ -1,0 +1,23 @@
+﻿# LevelbotSettings.FindVendorsAutomatically Property
+
+Gets or sets a value indicating whether find vendors automatically.
+
+## Namespace
+[Styx.Helpers](../../../../../namespaces/Styx/Helpers.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+public bool FindVendorsAutomatically { get; set; }
+```
+
+## Property Value
+
+Type: bool
+true if find vendors automatically; otherwise, false.
+
+## See Also
+[LevelbotSettings Class](../../LevelbotSettings.md)
+[Styx.Helpers Namespace](../../../../../namespaces/Styx/Helpers.md)

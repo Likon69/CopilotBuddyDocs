@@ -1,0 +1,54 @@
+﻿# ObjectInvalidateDelegate Delegate
+
+Represents a delegate for object invalidate.
+
+## Namespace
+[Styx.WoWInternals.WoWObjects](../../../../namespaces/Styx/WoWInternals/WoWObjects.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+public sealed delegate ObjectInvalidateDelegate
+```
+
+The ObjectInvalidateDelegate type exposes the following members.
+
+## Constructors
+
+| | Name | Description |
+| --- | --- | --- |
+| Public constructor | [ObjectInvalidateDelegate(object, nint)](ObjectInvalidateDelegate/Constructors/Constructor_000783B3062C.md) | Initializes a new instance of the ObjectInvalidateDelegate delegate. |
+
+## Properties
+
+| | Name | Description |
+| --- | --- | --- |
+| Public property | HasSingleTarget | Gets a value indicating whether has single target. (Inherited from Delegate.) |
+| Public property | Method | Gets the method. (Inherited from Delegate.) |
+| Public property | Target | Gets the target. (Inherited from Delegate.) |
+
+## Methods
+
+| | Name | Description |
+| --- | --- | --- |
+| Public method | [BeginInvoke(AsyncCallback, object)](ObjectInvalidateDelegate/Methods/BeginInvoke_208C81D28DB2.md) | Begins asynchronous invocation of the delegate. |
+| Public method | [EndInvoke(IAsyncResult)](ObjectInvalidateDelegate/Methods/EndInvoke_9ABD2509BF5F.md) | Completes asynchronous invocation of the delegate. |
+| Protected method | CombineImpl(Delegate) | Combines delegates. (Overrides Delegate.CombineImpl().). (Inherited from MulticastDelegate.) |
+| Public method | Equals(object) | Determines whether the specified object is equal to the current object. (Overrides Delegate.Equals().). (Inherited from MulticastDelegate.) |
+| Public method | GetHashCode | Serves as a hash function for a particular type. (Overrides Delegate.GetHashCode().). (Inherited from MulticastDelegate.) |
+| Public method | GetInvocationList | Gets the invocation list. (Overrides Delegate.GetInvocationList().). (Inherited from MulticastDelegate.) |
+| Protected method | GetMethodImpl | Gets the method impl. (Overrides Delegate.GetMethodImpl().). (Inherited from MulticastDelegate.) |
+| Public method | GetObjectData(SerializationInfo, StreamingContext) | Gets the object data. (Overrides Delegate.GetObjectData().). (Inherited from MulticastDelegate.) |
+| Protected method | RemoveImpl(Delegate) | Removes a delegate from the invocation list. (Overrides Delegate.RemoveImpl().). (Inherited from MulticastDelegate.) |
+| Public method | Clone | Creates a copy of the current delegate. (Inherited from Delegate.) |
+| Public method | DynamicInvoke(object[]) | Dynamically invokes the delegate. (Inherited from Delegate.) |
+| Protected method | DynamicInvokeImpl(object[]) | Performs the dynamic delegate invocation. (Inherited from Delegate.) |
+| Protected method | Finalize | Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection. (Inherited from object.) |
+| Public method | GetType | Gets the Type of the current instance. (Inherited from object.) |
+| Protected method | MemberwiseClone | Creates a shallow copy of the current Object. (Inherited from object.) |
+| Public method | ToString | Returns a string that represents the current object. (Inherited from object.) |
+
+## See Also
+[Styx.WoWInternals.WoWObjects Namespace](../../../../namespaces/Styx/WoWInternals/WoWObjects.md)

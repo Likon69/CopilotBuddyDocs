@@ -1,0 +1,18 @@
+﻿# ReputationFlags.ReputationFlags Constructor
+
+Initializes a new instance of the ReputationFlags enumeration.
+
+## Namespace
+[Styx.WoWInternals.WoWObjects](../../../../../../namespaces/Styx/WoWInternals/WoWObjects.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+public ReputationFlags()
+```
+
+## See Also
+[ReputationFlags Enumeration](../../ReputationFlags.md)
+[Styx.WoWInternals.WoWObjects Namespace](../../../../../../namespaces/Styx/WoWInternals/WoWObjects.md)

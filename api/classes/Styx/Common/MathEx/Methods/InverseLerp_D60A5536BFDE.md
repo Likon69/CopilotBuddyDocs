@@ -1,0 +1,31 @@
+﻿# MathEx.InverseLerp Method
+
+Inverse linear interpolation.
+
+## Namespace
+[Styx.Common](../../../../../namespaces/Styx/Common.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+public static float InverseLerp(float min, float max, float amount)
+```
+
+## Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| min | float | The min. |
+| max | float | The max. |
+| amount | float | The amount. |
+
+## Return Value
+
+Type: float
+The result of the operation.
+
+## See Also
+[MathEx Class](../../MathEx.md)
+[Styx.Common Namespace](../../../../../namespaces/Styx/Common.md)

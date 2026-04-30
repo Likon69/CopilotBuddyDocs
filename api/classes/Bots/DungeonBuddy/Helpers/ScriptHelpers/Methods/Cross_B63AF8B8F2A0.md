@@ -1,0 +1,30 @@
+﻿# ScriptHelpers.Cross Method
+
+Computes the cross product.
+
+## Namespace
+[Bots.DungeonBuddy.Helpers](../../../../../../namespaces/Bots/DungeonBuddy/Helpers.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+public static WoWPoint Cross(WoWPoint point1, WoWPoint point2)
+```
+
+## Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| point1 | [WoWPoint](../../../../../Styx/Logic/Pathing/WoWPoint.md) | The point1. |
+| point2 | [WoWPoint](../../../../../Styx/Logic/Pathing/WoWPoint.md) | The point2. |
+
+## Return Value
+
+Type: [WoWPoint](../../../../../Styx/Logic/Pathing/WoWPoint.md)
+The result of the operation.
+
+## See Also
+[ScriptHelpers Class](../../ScriptHelpers.md)
+[Bots.DungeonBuddy.Helpers Namespace](../../../../../../namespaces/Bots/DungeonBuddy/Helpers.md)

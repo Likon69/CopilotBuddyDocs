@@ -1,0 +1,23 @@
+﻿# SpellAttributesEx6.Unk9 Field
+
+Represents the unk9 value.
+
+## Namespace
+[Styx](../../../../namespaces/Styx.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+public const SpellAttributesEx6 Unk9
+```
+
+## Field Value
+
+Type: [SpellAttributesEx6](../../SpellAttributesEx6.md)
+The unk9 value.
+
+## See Also
+[SpellAttributesEx6 Enumeration](../../SpellAttributesEx6.md)
+[Styx Namespace](../../../../namespaces/Styx.md)

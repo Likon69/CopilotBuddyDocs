@@ -1,0 +1,30 @@
+﻿# SpellManager.CastSpell Method
+
+Casts the spell.
+
+## Namespace
+[Styx.Logic.Combat](../../../../../../namespaces/Styx/Logic/Combat.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+public static bool CastSpell(string name, WoWUnit target)
+```
+
+## Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| name | string | The name. |
+| target | [WoWUnit](../../../../WoWInternals/WoWObjects/WoWUnit.md) | The target. |
+
+## Return Value
+
+Type: bool
+true if the operation succeeds; otherwise, false.
+
+## See Also
+[SpellManager Class](../../SpellManager.md)
+[Styx.Logic.Combat Namespace](../../../../../../namespaces/Styx/Logic/Combat.md)
