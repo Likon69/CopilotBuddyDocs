@@ -37,7 +37,7 @@ The Profile type exposes the following members.
 | Public property | [Factions](Profile/Properties/Factions_079161419DB3.md) | Faction IDs to target. Inherits from parent if empty. |
 | Public property | [FilePath](Profile/Properties/FilePath_73352FA994CE.md) | Gets the file path. |
 | Public property | [ForceMail](Profile/Properties/ForceMail_CE992B4BDA58.md) | Gets items that should be force-mailed. Falls back to parent profile if empty. |
-| Public property | [GrindArea](Profile/Properties/GrindArea_B08F2E965F5F.md) | Gets or sets the grind area. |
+| Public property | [GrindArea](Profile/Properties/GrindArea_B08F2E965F5F.md) | The grind area for this profile. Falls back to parent profile if not set — matches HB 4.3.4 behavior. |
 | Public property | [HotspotManager](Profile/Properties/HotspotManager_CD8AD3F6D288.md) | Gets or sets the hotspot manager. |
 | Public property | [MailBlue](Profile/Properties/MailBlue_71A42C17C49A.md) | Whether to mail blue (rare) quality items. |
 | Public property | [MailGreen](Profile/Properties/MailGreen_C400651F5B01.md) | Whether to mail green (uncommon) quality items. |
@@ -86,7 +86,7 @@ The Profile type exposes the following members.
 | Public method | [FindQuest(uint)](Profile/Methods/FindQuest_2B8CE088D777.md) | Finds quest info by ID. |
 | Public method | [GetHashCode](Profile/Methods/GetHashCode_30FFCD6EAC17.md) | Serves as a hash function for a particular type. (Overrides object.GetHashCode().) |
 | Public method | [GetRootProfile](Profile/Methods/GetRootProfile_BD0FA29A3A55.md) | Gets the root profile in the hierarchy. |
-| Public method | [GetScopeSortedProfiles](Profile/Methods/GetScopeSortedProfiles_7851D826EC43.md) | Gets the scope sorted profiles. |
+| Public method | [GetScopeSortedProfiles](Profile/Methods/GetScopeSortedProfiles_7851D826EC43.md) | Returns all profiles (this + subprofiles recursively) sorted by nesting depth descending. Deepest subprofiles come first so the most specific level range wins in GetProfileForLevel. Matches HB 4.3.4 method_0 + smethod_0 behavior. |
 | Protected method | Finalize | Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection. (Inherited from object.) |
 | Public method | GetType | Gets the Type of the current instance. (Inherited from object.) |
 | Protected method | MemberwiseClone | Creates a shallow copy of the current Object. (Inherited from object.) |

@@ -51,6 +51,7 @@ The Mount type exposes the following members.
 | Public method Static member | [MountUp(LocationRetriever)](Mount/Methods/MountUp_37AB3E357F2B.md) | Mounts up. |
 | Public method Static member | [MountUp(CanMountDelegate, LocationRetriever)](Mount/Methods/MountUp_92874AAF84F7.md) | Mounts up with a custom can-mount check and destination (HB 4.3.4). Returns true if mount was attempted. |
 | Public method Static member | [Pulse](Mount/Methods/Pulse_A0350FC82BED.md) | Pulses mount state and fires events (call from main bot pulse). |
+| Public method Static member | [RemoveCantMountSpotsNear(WoWPoint, float)](Mount/Methods/RemoveCantMountSpotsNear_240A036699C9.md) | Removes all cant-mount spots within yards of . Call after a successful mount or harvest to clean up stale entries. |
 | Public method Static member | [ShouldDismount(WoWPoint)](Mount/Methods/ShouldDismount_EC778E0C696F.md) | Check if we should dismount for a given destination. Ported from HB 4.3.4. |
 | Public method Static member | [ShouldMount(WoWPoint)](Mount/Methods/ShouldMount_5B4648321FBB.md) | Determines whether should mount. |
 | Public method Static member | [StateMount](Mount/Methods/StateMount_ED6064197810.md) | Performs state-based mounting. |

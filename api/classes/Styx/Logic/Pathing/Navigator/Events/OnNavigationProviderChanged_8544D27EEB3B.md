@@ -10,12 +10,12 @@ CopilotBuddy (in CopilotBuddy.dll)
 
 ## Syntax
 ```csharp
-public static event EventHandler<NavigationProviderChangedEventArgs<INavigationProvider>> OnNavigationProviderChanged
+public static event EventHandler<NavigationProviderChangedEventArgs<NavigationProvider>> OnNavigationProviderChanged
 ```
 
 ## Event Type
 
-Type: EventHandler<NavigationProviderChangedEventArgs<INavigationProvider>>
+Type: EventHandler<NavigationProviderChangedEventArgs<NavigationProvider>>
 The event handler for on navigation provider changed.
 
 ## See Also

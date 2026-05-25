@@ -40,7 +40,7 @@ The LocalPlayerMover type exposes the following members.
 | Public method | [Move(MovementDirection)](LocalPlayerMover/Methods/Move_89B4BA8CB3B1.md) | Moves to . |
 | Public method | [MoveInDirection(MoveDirection, bool)](LocalPlayerMover/Methods/MoveInDirection_2CA1082BCB61.md) | Moves the player in a specific direction (strafe, turn, etc). |
 | Public method | [MoveStop](LocalPlayerMover/Methods/MoveStop_FD8162368365.md) | Stops all player movement (alias for StopMoving). |
-| Public method | [MoveTowards(Vector3)](LocalPlayerMover/Methods/MoveTowards_71CF0F19EFC3.md) | Moves the player towards a specific point using click-to-move. |
+| Public method | [MoveTowards(Vector3)](LocalPlayerMover/Methods/MoveTowards_71CF0F19EFC3.md) | Moves the player towards a specific point using click-to-move. HB 6.2.3 ClickToMoveMover: click the point directly, no look-ahead projection. The push-ahead offset is already applied by Navigator.method_26 before this call. |
 | Public method | [PerformJump](LocalPlayerMover/Methods/PerformJump_4D5A20FD1F36.md) | Performs a jump action, waiting for the fall to complete. |
 | Public method | [SetFacing(float)](LocalPlayerMover/Methods/SetFacing_BAEF32077BF9.md) | Sets the player's facing direction. |
 | Public method | [StopMoving](LocalPlayerMover/Methods/StopMoving_C434529D4777.md) | Stops all player movement. |

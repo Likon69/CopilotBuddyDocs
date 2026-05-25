@@ -10,12 +10,12 @@ CopilotBuddy (in CopilotBuddy.dll)
 
 ## Syntax
 ```csharp
-public static IStuckHandler StuckHandler { get; set; }
+public static StuckHandler StuckHandler { get; set; }
 ```
 
 ## Property Value
 
-Type: [IStuckHandler](../../IStuckHandler.md)
+Type: [StuckHandler](../../StuckHandler.md)
 The stuck handler.
 
 ## See Also

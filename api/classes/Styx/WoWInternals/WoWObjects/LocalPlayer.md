@@ -97,7 +97,7 @@ The LocalPlayer type exposes the following members.
 | Public property | [LoadingScreen](LocalPlayer/Properties/LoadingScreen_9EEF24591343.md) | Whether there's a loading screen. Deprecated: Use StyxWoW.IsInGame instead. Ported from HB 3.3.5a for compatibility. |
 | Public property | [LocalTarget](LocalPlayer/Properties/LocalTarget_8BE6783A4F06.md) | Gets the local target. |
 | Public property | [LocalTargetGuid](LocalPlayer/Properties/LocalTargetGuid_ED50B5E289FF.md) | Gets the local target guid. |
-| Public property | [LowestDurabilityPercent](LocalPlayer/Properties/LowestDurabilityPercent_9AC14562EE9D.md) | Gets the lowest durability percentage among equipped items (0.0 to 1.0). HB 4.3.4: iterates Equipped.PhysicalItems, finds min DurabilityPercent / 100.0 |
+| Public property | [LowestDurabilityPercent](LocalPlayer/Properties/LowestDurabilityPercent_9AC14562EE9D.md) | Gets the lowest durability percentage among equipped items (0.0 to 1.0). HB 4.3.4: iterates Equipped.PhysicalItems, finds min DurabilityPercent. item.DurabilityPercent already returns 0.0–1.0 (ratio), so no extra division. |
 | Public property | [ManaRegenRate](LocalPlayer/Properties/ManaRegenRate_4787E729B282.md) | Gets the mana regeneration rate per 5 seconds. |
 | Public property | [MapId](LocalPlayer/Properties/MapId_64DE581D2022.md) | Gets the map id. |
 | Public property | [MapName](LocalPlayer/Properties/MapName_85141755EA78.md) | Gets the map name. Ported from HB 3.3.5a - Address 13502160U |

@@ -10,12 +10,12 @@ CopilotBuddy (in CopilotBuddy.dll)
 
 ## Syntax
 ```csharp
-public static INavigationProvider NavigationProvider { get; set; }
+public static NavigationProvider NavigationProvider { get; set; }
 ```
 
 ## Property Value
 
-Type: [INavigationProvider](../../INavigationProvider.md)
+Type: [NavigationProvider](../../NavigationProvider.md)
 The navigation provider.
 
 ## See Also

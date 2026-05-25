@@ -1,0 +1,31 @@
+﻿# MeshNavigator.CanNavigateWithin Method
+
+HB 6.2.3 MeshNavigator.CanNavigateWithin — uses the full PathFindResult endpoint. (Overrides NavigationProvider.CanNavigateWithin().)
+
+## Namespace
+[Styx.Logic.Pathing](../../../../../../namespaces/Styx/Logic/Pathing.md)
+
+## Assembly
+CopilotBuddy (in CopilotBuddy.dll)
+
+## Syntax
+```csharp
+public override bool CanNavigateWithin(WoWPoint from, WoWPoint to, float distanceTolerancy)
+```
+
+## Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| from | [WoWPoint](../../WoWPoint.md) | The from. |
+| to | [WoWPoint](../../WoWPoint.md) | The to. |
+| distanceTolerancy | float | The distance tolerancy. |
+
+## Return Value
+
+Type: bool
+true if the operation succeeds; otherwise, false.
+
+## See Also
+[MeshNavigator Class](../../MeshNavigator.md)
+[Styx.Logic.Pathing Namespace](../../../../../../namespaces/Styx/Logic/Pathing.md)

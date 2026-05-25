@@ -26,8 +26,8 @@ The AvoidInfo type exposes the following members.
 | Public constructor | [AvoidInfo(CanRunDecoratorDelegate, Predicate<WoWObject>, Func<float>)](AvoidInfo/Constructors/Constructor_29D5735BE24C.md) | Créer un avoid basé sur un objet |
 | Public constructor | [AvoidInfo(CanRunDecoratorDelegate, Func<WoWPoint>, Func<float>)](AvoidInfo/Constructors/Constructor_D640C7CAE432.md) | Créer un avoid basé sur une position fixe |
 | Public constructor | [AvoidInfo(CanRunDecoratorDelegate, Predicate<WoWObject>, Func<float>, bool)](AvoidInfo/Constructors/Constructor_E0C654A03395.md) | Initializes a new instance of the AvoidInfo class. |
-| Public constructor | [AvoidInfo(CanRunDecoratorDelegate, Predicate<WoWObject>, Func<float>, Func<WoWPoint>, float, bool)](AvoidInfo/Constructors/Constructor_216080B61CD4.md) | Initializes a new instance of the AvoidInfo class. |
-| Public constructor | [AvoidInfo(CanRunDecoratorDelegate, Func<WoWPoint>, Func<float>, Func<WoWPoint>, float, bool)](AvoidInfo/Constructors/Constructor_5B412A2FD7B3.md) | Initializes a new instance of the AvoidInfo class. |
+| Public constructor | [AvoidInfo(CanRunDecoratorDelegate, Predicate<WoWObject>, Func<float>, Func<WoWPoint>, float, bool, AvoidancePriority)](AvoidInfo/Constructors/Constructor_C3FC559955EF.md) | Initializes a new instance of the AvoidInfo class. |
+| Public constructor | [AvoidInfo(CanRunDecoratorDelegate, Func<WoWPoint>, Func<float>, Func<WoWPoint>, float, bool, AvoidancePriority)](AvoidInfo/Constructors/Constructor_1D8910F73FD8.md) | Initializes a new instance of the AvoidInfo class. |
 
 ## Properties
 
@@ -39,6 +39,7 @@ The AvoidInfo type exposes the following members.
 | Public property | [LeashRadius](AvoidInfo/Properties/LeashRadius_E07878F37E66.md) | Rayon maximum de fuite depuis le point d'ancrage |
 | Public property | [LocationSelector](AvoidInfo/Properties/LocationSelector_D8AC9BA9AD6C.md) | Sélecteur de position (pour avoid statique) |
 | Public property | [ObjectSelector](AvoidInfo/Properties/ObjectSelector_46F81151E375.md) | Sélecteur d'objets (pour avoid dynamique) |
+| Public property | [Priority](AvoidInfo/Properties/Priority_45230ED3CD6F.md) | HB 6.2.3 AvoidancePriority — weights the escape-route score in GetBestLocationOutsideCluster. High-priority avoids dominate the scoring so the bot exits through them first. Default: Medium (10). |
 | Public property | [RadiusSelector](AvoidInfo/Properties/RadiusSelector_01BCCD81EFC5.md) | Sélecteur de rayon |
 
 ## Methods

@@ -453,9 +453,9 @@ The WoWPlayer type exposes the following members.
 | Public property | [InteractRangeSqr](WoWObject/Properties/InteractRangeSqr_03A9554B5AE9.md) | FEAT-28: Squared interact range for faster distance checks (avoids sqrt). (Inherited from WoWObject.) |
 | Public property | [InteractType](WoWObject/Properties/InteractType_9EA6D2B14334.md) | Gets the interact type. (Inherited from WoWObject.) |
 | Public property | [IsDisabled](WoWObject/Properties/IsDisabled_CA00033E94A6.md) | Gets a value indicating whether is disabled. (Inherited from WoWObject.) |
-| Public property | [IsIndoors](WoWObject/Properties/IsIndoors_BFC833E84B34.md) | Whether this object is indoors. Override on LocalPlayer uses Lua for accuracy. FEAT-45: Made virtual so LocalPlayer can override. (Inherited from WoWObject.) |
+| Public property | [IsIndoors](WoWObject/Properties/IsIndoors_BFC833E84B34.md) | Gets a value indicating whether is indoors. (Inherited from WoWObject.) |
 | Public property | [IsMe](WoWObject/Properties/IsMe_591F6D9719B7.md) | Gets a value indicating whether is me. (Inherited from WoWObject.) |
-| Public property | [IsOutdoors](WoWObject/Properties/IsOutdoors_B015AB15D5D1.md) | Whether this object is outdoors. Override on LocalPlayer uses Lua for accuracy. FEAT-45: Made virtual so LocalPlayer can override. (Inherited from WoWObject.) |
+| Public property | [IsOutdoors](WoWObject/Properties/IsOutdoors_B015AB15D5D1.md) | Whether this object is indoors. Override on LocalPlayer uses Lua for accuracy. FEAT-45: Made virtual so LocalPlayer can override. (Inherited from WoWObject.) |
 | Public property | [IsUnderground](WoWObject/Properties/IsUnderground_E27ED67229BC.md) | Gets a value indicating whether is underground. (Inherited from WoWObject.) |
 | Public property | [IsValid](WoWObject/Properties/IsValid_4E903E878B2D.md) | Gets a value indicating whether is valid. (Inherited from WoWObject.) |
 | Public property | [MeIsBehind](WoWObject/Properties/MeIsBehind_397CD087104B.md) | Gets a value indicating whether me is behind. (Inherited from WoWObject.) |

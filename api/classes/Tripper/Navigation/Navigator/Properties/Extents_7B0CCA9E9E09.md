@@ -1,6 +1,6 @@
 ﻿# Navigator.Extents Property
 
-Search extents for navmesh queries (X, Y, Z). Default: 3, 20, 3 yards.
+Search extents passed raw to dtNavMeshQuery in Detour space [horizontal, vertical, horizontal]. Navigation.cpp applies WoWToDetour on center only — extents go direct to Detour. Must match HB 6.2.3 WowNavigator.Extents = (3,20,3): ±3 horizontal, ±20 vertical.
 
 ## Namespace
 [Tripper.Navigation](../../../../../namespaces/Tripper/Navigation.md)

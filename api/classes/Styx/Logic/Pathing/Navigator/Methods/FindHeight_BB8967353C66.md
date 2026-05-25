@@ -1,6 +1,6 @@
 ﻿# Navigator.FindHeight Method
 
-Finds the mesh height at a given XY position.
+HB 6.2.3 Navigator.FindHeight(x,y,out z) — takes first height from FindHeights.
 
 ## Namespace
 [Styx.Logic.Pathing](../../../../../../namespaces/Styx/Logic/Pathing.md)
@@ -17,14 +17,14 @@ public static bool FindHeight(float x, float y, out float z)
 
 | Name | Type | Description |
 | --- | --- | --- |
-| x | float | X coordinate. |
-| y | float | Y coordinate. |
-| z | float | Output Z coordinate (height). |
+| x | float | The x. |
+| y | float | The y. |
+| z | float | The z. |
 
 ## Return Value
 
 Type: bool
-True if a valid height was found.
+true if the operation succeeds; otherwise, false.
 
 ## See Also
 [Navigator Class](../../Navigator.md)

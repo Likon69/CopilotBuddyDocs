@@ -19,6 +19,7 @@ The LegacySpellManager type exposes the following members.
 
 | | Name | Description |
 | --- | --- | --- |
+| Public property Static member | [GlobalCooldown](LegacySpellManager/Properties/GlobalCooldown_7411B9D7F59C.md) | Gets a value indicating whether global cooldown. |
 | Public property Static member | [KnownSpells](LegacySpellManager/Properties/KnownSpells_F38D6F9F5D59.md) | Known spells dictionary keyed by name (populated via Refresh). |
 
 ## Methods

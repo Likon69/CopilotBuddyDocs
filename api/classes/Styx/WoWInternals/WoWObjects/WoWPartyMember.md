@@ -64,7 +64,7 @@ The WoWPartyMember type exposes the following members.
 | Public property | [PowerType](WoWPartyMember/Properties/PowerType_DE0AC84B6ADE.md) | Gets the power type. |
 | Public property | [PvpFlagged](WoWPartyMember/Properties/PvpFlagged_F6AD4B1C6C0C.md) | Returns true if this member is flagged for PvP. |
 | Public property | [RaidRank](WoWPartyMember/Properties/RaidRank_A382C2FA2687.md) | Gets the raid rank (0=member, 1=assist, 2=leader). |
-| Public property | [Role](WoWPartyMember/Properties/Role_571D18D88045.md) | Gets the assigned role in LFG. |
+| Public property | [Role](WoWPartyMember/Properties/Role_571D18D88045.md) | Gets the assigned role in LFG (WotLK 3.3.5a: UnitGroupRolesAssigned available since patch 3.3.0). Falls back to manual MT/MA assignment. |
 | Public property | [UnitId](WoWPartyMember/Properties/UnitId_DD0115FFFCF7.md) | Gets the unit ID used for Lua calls. |
 
 ## Methods

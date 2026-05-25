@@ -24,7 +24,7 @@ The MoveToNode type exposes the following members.
 
 | | Name | Description |
 | --- | --- | --- |
-| Public constructor | [MoveToNode(WoWPoint, string, float, uint)](MoveToNode/Constructors/Constructor_6CEB4CEAAA37.md) | Initializes a new instance of the MoveToNode class. |
+| Public constructor | [MoveToNode(WoWPoint, string, float, uint, NavType?)](MoveToNode/Constructors/Constructor_23D4E6948F52.md) | Initializes a new instance of the MoveToNode class. |
 
 ## Properties
 
@@ -32,6 +32,7 @@ The MoveToNode type exposes the following members.
 | --- | --- | --- |
 | Public property | [Location](MoveToNode/Properties/Location_87EECA067E27.md) | Gets the location. |
 | Public property | [LocationName](MoveToNode/Properties/LocationName_4C62020C52D4.md) | Gets the location name. |
+| Public property | [NavType](MoveToNode/Properties/NavType_C63F6CEA2366.md) | Gets the nav type. |
 | Public property | [Precision](MoveToNode/Properties/Precision_C93A18FC1907.md) | Gets the precision. |
 | Public property | [QuestId](MoveToNode/Properties/QuestId_03F9636CF6A3.md) | Gets the quest id. |
 | Public property | Element | Gets or sets the element. (Inherited from OrderNode.) |

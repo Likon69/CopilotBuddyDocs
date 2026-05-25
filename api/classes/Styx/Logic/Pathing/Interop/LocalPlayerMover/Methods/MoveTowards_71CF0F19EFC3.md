@@ -1,6 +1,6 @@
 ﻿# LocalPlayerMover.MoveTowards Method
 
-Moves the player towards a specific point using click-to-move.
+Moves the player towards a specific point using click-to-move. HB 6.2.3 ClickToMoveMover: click the point directly, no look-ahead projection. The push-ahead offset is already applied by Navigator.method_26 before this call.
 
 ## Namespace
 [Styx.Logic.Pathing.Interop](../../../../../../../namespaces/Styx/Logic/Pathing/Interop.md)

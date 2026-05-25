@@ -31,6 +31,7 @@ The ForcedBehavior type exposes the following members.
 | --- | --- | --- |
 | Public property | [Branch](ForcedBehavior/Properties/Branch_D9EDC1D2DD45.md) | The behavior tree branch for this forced behavior. Created lazily on first access. |
 | Public property | [IsDone](ForcedBehavior/Properties/IsDone_FBF416E56F41.md) | Returns true when this behavior has completed its task. |
+| Public property | [NavType](ForcedBehavior/Properties/NavType_41A3D52F0288.md) | NavType for this behavior. null = auto-detect (Flightor.CanFly). Legion: ForcedBehavior.NavType (nullable). |
 
 ## Methods
 

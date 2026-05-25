@@ -43,7 +43,7 @@ The LfgManager type exposes the following members.
 
 | | Name | Description |
 | --- | --- | --- |
-| Public method Static member | [AcceptProposal](LfgManager/Methods/AcceptProposal_7E057E1B214C.md) | Accepter la proposition de donjon. ⚠️ AcceptProposal() est une fonction Lua RESTRICTED (Protected) en WotLK. Elle nécessite un "hardware event" (clic utilisateur) pour s'exécuter via l'interface Blizzard standard. MAIS CopilotBuddy injecte via EndScene (GreenMagic), ce qui bypass cette restriction car le code s'exécute dans le contexte du thread principal du jeu. Pattern HB: ajout d'un délai aléatoire (1-3s) avant d'accepter pour paraître plus humain et éviter la détection. |
+| Public method Static member | [AcceptProposal](LfgManager/Methods/AcceptProposal_7E057E1B214C.md) | Accepter la proposition de donjon. Parité HB: appel direct Lua AcceptProposal(). |
 | Public method Static member | [AttachLfgEvents](LfgManager/Methods/AttachLfgEvents_001E2574234C.md) | Attache les événements LFG via Lua.Events.AttachEvent Appelé dans DungeonBuddy.Start() |
 | Public method Static member | [DeclineProposal](LfgManager/Methods/DeclineProposal_A3BCDBA06961.md) | Refuser la proposition |
 | Public method Static member | [DetachLfgEvents](LfgManager/Methods/DetachLfgEvents_5FA0C0A085D8.md) | Détache les événements LFG. Appelé dans DungeonBuddy.Stop() |

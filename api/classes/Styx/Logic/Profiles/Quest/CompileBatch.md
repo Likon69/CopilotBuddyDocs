@@ -43,6 +43,7 @@ The CompileBatch type exposes the following members.
 | Public method | [AddExpression(DelayCompiledExpression, object)](CompileBatch/Methods/AddExpression_AAB476186090.md) | Registers a DelayCompiledExpression with the batch. The expression's CompiledExpression field is populated after Compile() succeeds. |
 | Public method | [AddImport(string)](CompileBatch/Methods/AddImport_4EE7595DE29C.md) | Adds the import. |
 | Public method | [Compile](CompileBatch/Methods/Compile_7F61975BFB45.md) | Compiles all registered code and expressions into a single assembly. Sets CompiledExpression on each registered DelayCompiledExpression. |
+| Public method | [GetDefinitionCode](CompileBatch/Methods/GetDefinitionCode_FFFFCBF479CB.md) | Returns all raw code strings registered via Add() (Type="Definition" entries). Used by ProfileBatchManager to carry definitions forward into new batches. |
 | Public method | Equals(object) | Determines whether the specified object is equal to the current object. (Inherited from object.) |
 | Protected method | Finalize | Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection. (Inherited from object.) |
 | Public method | GetHashCode | Serves as a hash function for a particular type. (Inherited from object.) |

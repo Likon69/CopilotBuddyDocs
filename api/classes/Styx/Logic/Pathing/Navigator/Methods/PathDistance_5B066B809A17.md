@@ -1,6 +1,6 @@
 ﻿# Navigator.PathDistance Method
 
-Computes the path distance between two points using TripperNavigator. Returns null if no path could be generated or if the calculated distance exceeds . This helper backs and was removed earlier during refactoring; it has now been restored.
+HB 6.2.3 Navigator.PathDistance — delegates to NavigationProvider.PathDistance. Falls back to raw Tripper path calculation when no provider is set.
 
 ## Namespace
 [Styx.Logic.Pathing](../../../../../../namespaces/Styx/Logic/Pathing.md)

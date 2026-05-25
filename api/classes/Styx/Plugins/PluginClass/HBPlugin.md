@@ -44,6 +44,8 @@ The HBPlugin type exposes the following members.
 | Public method | [GetHashCode](HBPlugin/Methods/GetHashCode_3CD764E21DF9.md) | Serves as a hash function for a particular type. (Overrides object.GetHashCode().) |
 | Public method | [Initialize](HBPlugin/Methods/Initialize_7541002987B2.md) | Initializes the component. |
 | Public method | [OnButtonPress](HBPlugin/Methods/OnButtonPress_C1DFA75BD094.md) | Handles the on button press operation. |
+| Public method | [OnDisable](HBPlugin/Methods/OnDisable_B59A4C133B90.md) | Handles the on disable operation. |
+| Public method | [OnEnable](HBPlugin/Methods/OnEnable_0E3DA614279F.md) | Handles the on enable operation. |
 | Public method | [Pulse](HBPlugin/Methods/Pulse_52C80999700E.md) | Executes one bot pulse. |
 | Protected method | Finalize | Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection. (Inherited from object.) |
 | Public method | GetType | Gets the Type of the current instance. (Inherited from object.) |

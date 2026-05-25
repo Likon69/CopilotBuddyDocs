@@ -1,6 +1,6 @@
 ﻿# TileLoadedEventArgs.TileX Property
 
-Gets the tile x.
+Gets or sets the tile x.
 
 ## Namespace
 [Tripper.Navigation](../../../../../namespaces/Tripper/Navigation.md)
@@ -10,7 +10,7 @@ CopilotBuddy (in CopilotBuddy.dll)
 
 ## Syntax
 ```csharp
-public int TileX { get; }
+public int TileX { get; set; }
 ```
 
 ## Property Value

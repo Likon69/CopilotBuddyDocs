@@ -87,9 +87,9 @@ The WoWGameObject type exposes the following members.
 | Public property | InteractRangeSqr | FEAT-28: Squared interact range for faster distance checks (avoids sqrt). (Inherited from WoWObject.) |
 | Public property | InteractType | Gets the interact type. (Inherited from WoWObject.) |
 | Public property | IsDisabled | Gets a value indicating whether is disabled. (Inherited from WoWObject.) |
-| Public property | IsIndoors | Whether this object is indoors. Override on LocalPlayer uses Lua for accuracy. FEAT-45: Made virtual so LocalPlayer can override. (Inherited from WoWObject.) |
+| Public property | IsIndoors | Gets a value indicating whether is indoors. (Inherited from WoWObject.) |
 | Public property | IsMe | Gets a value indicating whether is me. (Inherited from WoWObject.) |
-| Public property | IsOutdoors | Whether this object is outdoors. Override on LocalPlayer uses Lua for accuracy. FEAT-45: Made virtual so LocalPlayer can override. (Inherited from WoWObject.) |
+| Public property | IsOutdoors | Whether this object is indoors. Override on LocalPlayer uses Lua for accuracy. FEAT-45: Made virtual so LocalPlayer can override. (Inherited from WoWObject.) |
 | Public property | IsUnderground | Gets a value indicating whether is underground. (Inherited from WoWObject.) |
 | Public property | IsValid | Gets a value indicating whether is valid. (Inherited from WoWObject.) |
 | Public property | MeIsBehind | Gets a value indicating whether me is behind. (Inherited from WoWObject.) |

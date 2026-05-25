@@ -1,6 +1,6 @@
 ﻿# Switch<T>.Statement Property
 
-The statement assigned to this Switch that will determine which logical branch to take.
+The statement assigned to this Switch that will determine which logical branch to take. Takes the tree context as its argument (matches HB 4.3.4 RetrieveSwitchParameterDelegate behaviour).
 
 ## Namespace
 [TreeSharp](../../../../namespaces/TreeSharp.md)
@@ -10,12 +10,12 @@ CopilotBuddy (in CopilotBuddy.dll)
 
 ## Syntax
 ```csharp
-protected Func<T> Statement { get; set; }
+protected Func<object, T> Statement { get; set; }
 ```
 
 ## Property Value
 
-Type: Func<T>
+Type: Func<object, T>
 The statement.
 
 ## See Also

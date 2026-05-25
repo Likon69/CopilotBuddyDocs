@@ -20,6 +20,7 @@ The Blackspot type exposes the following members.
 | | Name | Description |
 | --- | --- | --- |
 | Public constructor | [Blackspot](Blackspot/Constructors/Constructor_DD4EF14BB61B.md) | Initializes a new instance of the Blackspot struct. |
+| Public constructor | [Blackspot(XElement)](Blackspot/Constructors/Constructor_3311DC36029A.md) | Initializes a blackspot from an XML element. Ported from HB 4.3.4 Styx.Logic.Profiles.Blackspot(XElement). |
 | Public constructor | [Blackspot(WoWPoint, float, float)](Blackspot/Constructors/Constructor_1A94C0E5FB89.md) | Initializes a new blackspot. |
 
 ## Fields

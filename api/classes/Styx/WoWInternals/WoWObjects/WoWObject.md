@@ -43,9 +43,9 @@ The WoWObject type exposes the following members.
 | Public property | [InteractRangeSqr](WoWObject/Properties/InteractRangeSqr_03A9554B5AE9.md) | FEAT-28: Squared interact range for faster distance checks (avoids sqrt). |
 | Public property | [InteractType](WoWObject/Properties/InteractType_9EA6D2B14334.md) | Gets the interact type. |
 | Public property | [IsDisabled](WoWObject/Properties/IsDisabled_CA00033E94A6.md) | Gets a value indicating whether is disabled. |
-| Public property | [IsIndoors](WoWObject/Properties/IsIndoors_BFC833E84B34.md) | Whether this object is indoors. Override on LocalPlayer uses Lua for accuracy. FEAT-45: Made virtual so LocalPlayer can override. |
+| Public property | [IsIndoors](WoWObject/Properties/IsIndoors_BFC833E84B34.md) | Gets a value indicating whether is indoors. |
 | Public property | [IsMe](WoWObject/Properties/IsMe_591F6D9719B7.md) | Gets a value indicating whether is me. |
-| Public property | [IsOutdoors](WoWObject/Properties/IsOutdoors_B015AB15D5D1.md) | Whether this object is outdoors. Override on LocalPlayer uses Lua for accuracy. FEAT-45: Made virtual so LocalPlayer can override. |
+| Public property | [IsOutdoors](WoWObject/Properties/IsOutdoors_B015AB15D5D1.md) | Whether this object is indoors. Override on LocalPlayer uses Lua for accuracy. FEAT-45: Made virtual so LocalPlayer can override. |
 | Public property | [IsUnderground](WoWObject/Properties/IsUnderground_E27ED67229BC.md) | Gets a value indicating whether is underground. |
 | Public property | [IsValid](WoWObject/Properties/IsValid_4E903E878B2D.md) | Gets a value indicating whether is valid. |
 | Public property | [Location](WoWObject/Properties/Location_ECF3EB3AA650.md) | Gets the location. |

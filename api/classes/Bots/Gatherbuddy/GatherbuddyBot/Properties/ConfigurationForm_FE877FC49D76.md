@@ -1,6 +1,6 @@
 ﻿# GatherbuddyBot.ConfigurationForm Property
 
-Returns the settings window shown when "Bot Config" is clicked. (Overrides BotBase.ConfigurationForm.)
+Gets the configuration form. (Overrides BotBase.ConfigurationForm.)
 
 ## Namespace
 [Bots.Gatherbuddy](../../../../../namespaces/Bots/Gatherbuddy.md)

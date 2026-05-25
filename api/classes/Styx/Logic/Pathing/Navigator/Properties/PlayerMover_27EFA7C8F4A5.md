@@ -10,12 +10,12 @@ CopilotBuddy (in CopilotBuddy.dll)
 
 ## Syntax
 ```csharp
-public static IMover PlayerMover { get; set; }
+public static IPlayerMover PlayerMover { get; set; }
 ```
 
 ## Property Value
 
-Type: [IMover](../../Interop/IMover.md)
+Type: [IPlayerMover](../../IPlayerMover.md)
 The player mover.
 
 ## See Also

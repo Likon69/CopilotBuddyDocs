@@ -1,6 +1,6 @@
 ﻿# LocalPlayer.LowestDurabilityPercent Property
 
-Gets the lowest durability percentage among equipped items (0.0 to 1.0). HB 4.3.4: iterates Equipped.PhysicalItems, finds min DurabilityPercent / 100.0
+Gets the lowest durability percentage among equipped items (0.0 to 1.0). HB 4.3.4: iterates Equipped.PhysicalItems, finds min DurabilityPercent. item.DurabilityPercent already returns 0.0–1.0 (ratio), so no extra division.
 
 ## Namespace
 [Styx.WoWInternals.WoWObjects](../../../../../../namespaces/Styx/WoWInternals/WoWObjects.md)

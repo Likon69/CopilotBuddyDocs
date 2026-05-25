@@ -1,6 +1,6 @@
 ﻿# TileIdentifier.GetByPosition Method
 
-Gets the tile identifier for a given world position. Coordinates: TileX = 32 - Floor(worldY / 533.3333), TileY = 32 - Floor(worldX / 533.3333)
+Gets the tile identifier for a given world position. Matches Navigation.cpp WorldToTile for 1x1 MaNGOS tiles.
 
 ## Namespace
 [Tripper.Navigation](../../../../../namespaces/Tripper/Navigation.md)

@@ -35,7 +35,10 @@ The TileIdentifier type exposes the following members.
 | --- | --- | --- |
 | Public method | [Equals(TileIdentifier)](TileIdentifier/Methods/Equals_BB4CD76B161E.md) | Checks equality between two tile identifiers. |
 | Public method | [Equals(object)](TileIdentifier/Methods/Equals_761C432D9B86.md) | Checks equality with another object. (Overrides ValueType.Equals().) |
-| Public method Static member | [GetByPosition(float, float)](TileIdentifier/Methods/GetByPosition_66BA33F3C274.md) | Gets the tile identifier for a given world position. Coordinates: TileX = 32 - Floor(worldY / 533.3333), TileY = 32 - Floor(worldX / 533.3333) |
+| Public method Static member | [GetByPosition(Vector3)](TileIdentifier/Methods/GetByPosition_9C806CC9C912.md) | Gets the tile identifier for a given world position. Matches Navigation.dll's 1:1 raw-tile WorldToTile conversion. |
+| Public method Static member | [GetByPosition(Vector3)](TileIdentifier/Methods/GetByPosition_BD8B579E4EF4.md) | Gets the by position. |
+| Public method Static member | [GetByPosition(Vector2)](TileIdentifier/Methods/GetByPosition_9110F8700749.md) | Gets the by position. |
+| Public method Static member | [GetByPosition(float, float)](TileIdentifier/Methods/GetByPosition_66BA33F3C274.md) | Gets the tile identifier for a given world position. Matches Navigation.cpp WorldToTile for 1x1 MaNGOS tiles. |
 | Public method | [GetHashCode](TileIdentifier/Methods/GetHashCode_354FE9828CC6.md) | Gets the hash code for this tile identifier. (Overrides ValueType.GetHashCode().) |
 | Public method | [ToString](TileIdentifier/Methods/ToString_0F481631565F.md) | Returns a string representation of this tile identifier. (Overrides ValueType.ToString().) |
 | Protected method | Finalize | Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection. (Inherited from object.) |

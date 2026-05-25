@@ -1,6 +1,6 @@
 ﻿# BlackspotManager Class
 
-Manages blackspots - areas to avoid during navigation. Blackspots can be added from profiles or dynamically at runtime. Like HB 4.3.4, this marks navmesh polygons with AreaType.Misc7 (26) and sets a high path cost (60f) to make the pathfinder avoid them.
+Manages blackspots - areas to avoid during navigation. Blackspots can be added from profiles or dynamically at runtime. Like HB WoD, this marks navmesh polygons with AreaType.Blackspot (17) and sets a high path cost (60f) to make the pathfinder avoid them.
 
 ## Namespace
 [Styx.Logic.Pathing](../../../../namespaces/Styx/Logic/Pathing.md)
@@ -33,7 +33,8 @@ The BlackspotManager type exposes the following members.
 | | Name | Description |
 | --- | --- | --- |
 | Public method Static member | [AddBlackspot(WoWPoint, float, float)](BlackspotManager/Methods/AddBlackspot_70AF8359494B.md) | Adds a blackspot at the specified location. |
-| Public method Static member | [AddBlackspots(IEnumerable<Blackspot>)](BlackspotManager/Methods/AddBlackspots_6B603EE31A0B.md) | Adds multiple blackspots and marks the corresponding navmesh polygons. Like HB 4.3.4: QueryPolygons + SetPolyArea(26) + SetAreaCost(60f) |
+| Public method Static member | [AddBlackspot(WoWPoint, float, float, string)](BlackspotManager/Methods/AddBlackspot_10F78E3A4276.md) | Adds the blackspot. |
+| Public method Static member | [AddBlackspots(IEnumerable<Blackspot>)](BlackspotManager/Methods/AddBlackspots_6B603EE31A0B.md) | Adds multiple blackspots and marks the corresponding navmesh polygons. Like HB WoD: QueryPolygons + SetPolyArea(Blackspot) + SetAreaCost(60f) |
 | Public method Static member | [AddGlobalBlackspot(GlobalBlackspot)](BlackspotManager/Methods/AddGlobalBlackspot_FDF2DF72690B.md) | Adds a global blackspot. |
 | Public method Static member | [AddGlobalBlackspot(WoWPoint, float, float)](BlackspotManager/Methods/AddGlobalBlackspot_FD681D5C4BA1.md) | Adds a global blackspot that persists across sessions. |
 | Public method Static member | [ClearBlackspots](BlackspotManager/Methods/ClearBlackspots_EC69F3009F19.md) | Clears all non-global blackspots. |

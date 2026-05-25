@@ -1,6 +1,6 @@
 ﻿# MapLoadedEventArgs Class
 
-Event arguments for map loaded events.
+Represents a map loaded event args.
 
 ## Inheritance Hierarchy
 System.Object
@@ -24,13 +24,15 @@ The MapLoadedEventArgs type exposes the following members.
 
 | | Name | Description |
 | --- | --- | --- |
+| Public constructor | [MapLoadedEventArgs](MapLoadedEventArgs/Constructors/Constructor_73C371609C39.md) | Initializes a new instance of the MapLoadedEventArgs class. |
 | Public constructor | [MapLoadedEventArgs(uint)](MapLoadedEventArgs/Constructors/Constructor_55C581C274DF.md) | Initializes a new instance of the MapLoadedEventArgs class. |
 
 ## Properties
 
 | | Name | Description |
 | --- | --- | --- |
-| Public property | [MapId](MapLoadedEventArgs/Properties/MapId_BCB5186D88CC.md) | Gets the map id. |
+| Public property | [IsTiled](MapLoadedEventArgs/Properties/IsTiled_0D68ABF7C7DA.md) | Gets or sets a value indicating whether is tiled. |
+| Public property | [Names](MapLoadedEventArgs/Properties/Names_C642B6162D46.md) | Gets or sets the names. |
 
 ## Methods
 

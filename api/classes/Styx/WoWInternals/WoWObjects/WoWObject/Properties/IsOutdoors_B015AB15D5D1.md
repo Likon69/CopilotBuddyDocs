@@ -1,6 +1,6 @@
 ﻿# WoWObject.IsOutdoors Property
 
-Whether this object is outdoors. Override on LocalPlayer uses Lua for accuracy. FEAT-45: Made virtual so LocalPlayer can override.
+Whether this object is indoors. Override on LocalPlayer uses Lua for accuracy. FEAT-45: Made virtual so LocalPlayer can override.
 
 ## Namespace
 [Styx.WoWInternals.WoWObjects](../../../../../../namespaces/Styx/WoWInternals/WoWObjects.md)

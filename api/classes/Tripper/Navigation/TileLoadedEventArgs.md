@@ -1,6 +1,6 @@
 ﻿# TileLoadedEventArgs Class
 
-Event arguments for tile loaded events.
+Represents a tile loaded event args.
 
 ## Inheritance Hierarchy
 System.Object
@@ -24,15 +24,17 @@ The TileLoadedEventArgs type exposes the following members.
 
 | | Name | Description |
 | --- | --- | --- |
+| Public constructor | [TileLoadedEventArgs](TileLoadedEventArgs/Constructors/Constructor_22EFF32FB2E1.md) | Initializes a new instance of the TileLoadedEventArgs class. |
 | Public constructor | [TileLoadedEventArgs(uint, int, int)](TileLoadedEventArgs/Constructors/Constructor_2EBD96696143.md) | Initializes a new instance of the TileLoadedEventArgs class. |
 
 ## Properties
 
 | | Name | Description |
 | --- | --- | --- |
-| Public property | [MapId](TileLoadedEventArgs/Properties/MapId_89B02E95990B.md) | Gets the map id. |
-| Public property | [TileX](TileLoadedEventArgs/Properties/TileX_BF81A90B4568.md) | Gets the tile x. |
-| Public property | [TileY](TileLoadedEventArgs/Properties/TileY_ED20137756A2.md) | Gets the tile y. |
+| Public property | [MapId](TileLoadedEventArgs/Properties/MapId_89B02E95990B.md) | Gets or sets the map id. |
+| Public property | [Tile](TileLoadedEventArgs/Properties/Tile_373437620F58.md) | Gets or sets the tile. |
+| Public property | [TileX](TileLoadedEventArgs/Properties/TileX_BF81A90B4568.md) | Gets or sets the tile x. |
+| Public property | [TileY](TileLoadedEventArgs/Properties/TileY_ED20137756A2.md) | Gets or sets the tile y. |
 
 ## Methods
 

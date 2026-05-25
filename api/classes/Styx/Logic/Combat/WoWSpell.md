@@ -23,14 +23,15 @@ The WoWSpell type exposes the following members.
 
 | | Name | Description |
 | --- | --- | --- |
+| Public property | [AttributesEx](WoWSpell/Properties/AttributesEx_3489D1344D2E.md) | Gets the attributes ex. |
 | Public property | [BaseCooldown](WoWSpell/Properties/BaseCooldown_C43B6C2B2307.md) | Gets the base cooldown. |
 | Public property | [BaseDuration](WoWSpell/Properties/BaseDuration_2FEDE83341D2.md) | Gets the base duration. |
 | Public property | [BaseLevel](WoWSpell/Properties/BaseLevel_7D91324A73AB.md) | Gets the base level. |
-| Public property | [CanCast](WoWSpell/Properties/CanCast_00FE6C2648D9.md) | Returns true if the spell is currently usable (power, stance, equipped items, etc.). HB 4.3.4 WoWSpell.cs: delegates to IsUsableSpell Lua. IsUsableSpell exists in the WoW 3.3.5a Lua API — returns (usable, nomana). |
+| Public property | [CanCast](WoWSpell/Properties/CanCast_00FE6C2648D9.md) | Returns true if the spell is currently usable (power, stance, equipped items, etc.) AND not on cooldown. HB 4.3.4 WoWSpell.cs: delegates to IsUsableSpell Lua. IsUsableSpell in WoW 3.3.5a does NOT check cooldowns — we pre-check Cooldown (ASM-based, language-independent) so that instant off-GCD spells like Blood Fury are never reported as castable while on their 2-minute cooldown. |
 | Public property | [CastTime](WoWSpell/Properties/CastTime_586F00885207.md) | Gets the cast time. |
 | Public property | [Category](WoWSpell/Properties/Category_E257BBC7BFAF.md) | Gets the category. |
 | Public property | [Cooldown](WoWSpell/Properties/Cooldown_E919D913851D.md) | Gets a value indicating whether cooldown. |
-| Public property | [CooldownTimeLeft](WoWSpell/Properties/CooldownTimeLeft_04BED421882B.md) | Gets the remaining cooldown time for this spell. HB 4.3.4 pattern: uses Lua GetSpellCooldown which correctly includes GCD. The memory-based approach had timing issues. |
+| Public property | [CooldownTimeLeft](WoWSpell/Properties/CooldownTimeLeft_04BED421882B.md) | Gets the remaining cooldown time for this spell. WotLK 3.3.5a: GetSpellCooldown() requires the spell name in the CLIENT'S LANGUAGE. Passing the English name fails on non-English clients (e.g. "Blood Fury" on a Russian client where the spell is "\208\175\209\128\208\190\209\129\209\130\209\140 \208\186\209\128\208\190\208\178\208\184"). Fix: use GetSpellInfo(id) to get the localized name first — language-independent. |
 | Public property | [CreatesItemId](WoWSpell/Properties/CreatesItemId_2321CC627190.md) | Gets the creates item id. |
 | Public property | [Description](WoWSpell/Properties/Description_471BF43F1E28.md) | Gets the description. |
 | Public property | [DispelType](WoWSpell/Properties/DispelType_B3ADB0072286.md) | Gets the dispel type. |

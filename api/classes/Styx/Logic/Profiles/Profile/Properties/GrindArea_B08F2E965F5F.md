@@ -1,6 +1,6 @@
 ﻿# Profile.GrindArea Property
 
-Gets or sets the grind area.
+The grind area for this profile. Falls back to parent profile if not set — matches HB 4.3.4 behavior.
 
 ## Namespace
 [Styx.Logic.Profiles](../../../../../../namespaces/Styx/Logic/Profiles.md)

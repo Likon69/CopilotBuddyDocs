@@ -37,6 +37,7 @@ The IndoorEntrance type exposes the following members.
 
 | | Name | Description |
 | --- | --- | --- |
+| Public method Static member | [FromXml(XElement)](IndoorEntrance/Methods/FromXml_5BD7AD9CDD10.md) | Creates the instance from XML. |
 | Public method | Equals(object) | Determines whether the specified object is equal to the current object. (Inherited from object.) |
 | Protected method | Finalize | Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection. (Inherited from object.) |
 | Public method | GetHashCode | Serves as a hash function for a particular type. (Inherited from object.) |

@@ -38,11 +38,18 @@ The AreaType type exposes the following members.
 | Public field | [HordePortal](AreaType/Fields/HordePortal_A0CCC3A0AE07.md) | Horde portal - Horde-specific portal. |
 | Public field | [InteractObject](AreaType/Fields/InteractObject_2A01DA887127.md) | Interactive object area - requires object interaction. |
 | Public field | [InteractUnit](AreaType/Fields/InteractUnit_73A30214E0FC.md) | Interactive unit area - requires unit interaction. |
+| Public field | [KnownBuilding](AreaType/Fields/KnownBuilding_7D1BFAB7F9F8.md) | Known building area - building/interior navigation helper. |
 | Public field | [Lava](AreaType/Fields/Lava_6AAB3B6578E3.md) | Lava surface - typically avoided or requires special handling. |
 | Public field | [Misc1](AreaType/Fields/Misc1_F0B0E74F4AF6.md) | Miscellaneous area type 1. |
+| Public field | [Misc10](AreaType/Fields/Misc10_EFDA0EBFF735.md) | Miscellaneous area type 10. |
 | Public field | [Misc2](AreaType/Fields/Misc2_615EC97CDE71.md) | Miscellaneous area type 2. |
 | Public field | [Misc3](AreaType/Fields/Misc3_E1E145DCB6A8.md) | Miscellaneous area type 3. |
 | Public field | [Misc4](AreaType/Fields/Misc4_0BF47F619127.md) | Miscellaneous area type 4. |
+| Public field | [Misc5](AreaType/Fields/Misc5_5B533A46F0F5.md) | Miscellaneous area type 5. |
+| Public field | [Misc6](AreaType/Fields/Misc6_018D1D8ED64A.md) | Miscellaneous area type 6. |
+| Public field | [Misc7](AreaType/Fields/Misc7_94CD14C57074.md) | Miscellaneous area type 7. |
+| Public field | [Misc8](AreaType/Fields/Misc8_6C08C2FA80AA.md) | Miscellaneous area type 8. |
+| Public field | [Misc9](AreaType/Fields/Misc9_2E6F4675CAA3.md) | Miscellaneous area type 9. |
 | Public field | [Portal](AreaType/Fields/Portal_20D197F86F6A.md) | Portal area - teleportation or zone transition. |
 | Public field | [Road](AreaType/Fields/Road_6FDCD80E0B1A.md) | Road surface - optimized for faster travel. |
 | Public field | [Water](AreaType/Fields/Water_DDC65C38F815.md) | Water surface - requires swimming ability. |

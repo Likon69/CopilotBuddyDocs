@@ -78,6 +78,7 @@ Contains helper and utility types used throughout the bot.
 | Public enumeration | [LogLevel](../../classes/Styx/Helpers/LogLevel.md) | Log levels matching Honorbuddy WoD. |
 | Public enumeration | [LogType](../../classes/Styx/Helpers/LogType.md) | Log type for the logging system. Ported from HB 4.3.4. |
 | Public enumeration | [PluginSourceEnum](../../classes/Styx/Helpers/PluginSourceEnum.md) | Source of plugins to load. |
+| Public enumeration | [QueueMode](../../classes/Styx/Helpers/QueueMode.md) | Path traversal mode for CircularQueue. Circle: indefinitely loops 1→2→3→1→2→3→... Bounce: reverses at each end 1→2→3→2→1→2→3→... |
 
 ## Delegates
 

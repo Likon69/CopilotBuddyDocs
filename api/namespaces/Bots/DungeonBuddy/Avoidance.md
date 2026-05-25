@@ -19,12 +19,14 @@ Contains avoidance types used by DungeonBuddy.
 | Public class | [Helpers](../../../classes/Bots/DungeonBuddy/Avoidance/Helpers.md) | Provides helper methods for avoid tracing and clustering. |
 | Public class | [LineCircleTangentPoints](../../../classes/Bots/DungeonBuddy/Avoidance/LineCircleTangentPoints.md) | Represents tangent points between a line and a circle. |
 | Public class | [LineClusterTangentPoints](../../../classes/Bots/DungeonBuddy/Avoidance/LineClusterTangentPoints.md) | Represents tangent points between a line and a cluster. |
+| Public class | [WorldObstacleManager](../../../classes/Bots/DungeonBuddy/Avoidance/WorldObstacleManager.md) | Provides world obstacle management functionality. |
 
 ## Enumerations
 
 | | Name | Description |
 | --- | --- | --- |
 | Public enumeration | [AvoidSide](../../../classes/Bots/DungeonBuddy/Avoidance/AvoidSide.md) | Represents values for Avoid Side. |
+| Public enumeration | [AvoidancePriority](../../../classes/Bots/DungeonBuddy/Avoidance/AvoidancePriority.md) | HB 6.2.3 AvoidancePriority — weights the urgency of an avoid zone. Used by GetBestLocationOutsideCluster to bias the escape route scoring: high-priority avoids (e.g. instant-kill fire) dominate the score so the bot exits through them first, even if the path is longer. Values match HB 6.2.3 exactly: Low=1, Medium=10, High=100. |
 | Public enumeration | [PathResult](../../../classes/Bots/DungeonBuddy/Avoidance/PathResult.md) | Represents values for Path Result. |
 
 ## See Also

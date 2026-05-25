@@ -1,6 +1,6 @@
 ﻿# WoWSpell.CooldownTimeLeft Property
 
-Gets the remaining cooldown time for this spell. HB 4.3.4 pattern: uses Lua GetSpellCooldown which correctly includes GCD. The memory-based approach had timing issues.
+Gets the remaining cooldown time for this spell. WotLK 3.3.5a: GetSpellCooldown() requires the spell name in the CLIENT'S LANGUAGE. Passing the English name fails on non-English clients (e.g. "Blood Fury" on a Russian client where the spell is "\208\175\209\128\208\190\209\129\209\130\209\140 \208\186\209\128\208\190\208\178\208\184"). Fix: use GetSpellInfo(id) to get the localized name first — language-independent.
 
 ## Namespace
 [Styx.Logic.Combat](../../../../../../namespaces/Styx/Logic/Combat.md)

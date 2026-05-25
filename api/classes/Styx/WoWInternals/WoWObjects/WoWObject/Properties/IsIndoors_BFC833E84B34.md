@@ -1,6 +1,6 @@
 ﻿# WoWObject.IsIndoors Property
 
-Whether this object is indoors. Override on LocalPlayer uses Lua for accuracy. FEAT-45: Made virtual so LocalPlayer can override.
+Gets a value indicating whether is indoors.
 
 ## Namespace
 [Styx.WoWInternals.WoWObjects](../../../../../../namespaces/Styx/WoWInternals/WoWObjects.md)

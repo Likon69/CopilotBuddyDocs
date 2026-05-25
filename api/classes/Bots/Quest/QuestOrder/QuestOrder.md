@@ -33,6 +33,8 @@ The QuestOrder type exposes the following members.
 | Public property | [CurrentBehavior](QuestOrder/Properties/CurrentBehavior_9E28E17F7DD3.md) | The currently executing forced behavior. |
 | Public property | [CurrentNode](QuestOrder/Properties/CurrentNode_3480A138D2B7.md) | The current node being processed. |
 | Public property | [IgnoreCheckpoints](QuestOrder/Properties/IgnoreCheckpoints_7BC4F42F81A9.md) | Whether to ignore checkpoints in the quest order. |
+| Public property Static member | [Instance](QuestOrder/Properties/Instance_546961D3DDB3.md) | Gets the instance. |
+| Public property | [NavType](QuestOrder/Properties/NavType_E3544BA3F914.md) | Effective NavType for the current movement node. Priority: ForcedBehavior.NavType → Flightor.CanFly auto-detect. Legion: QuestOrder.NavType property (same cascade logic). |
 | Public property | [Nodes](QuestOrder/Properties/Nodes_6C73EB09E1D6.md) | The collection of order nodes to execute. |
 
 ## Events

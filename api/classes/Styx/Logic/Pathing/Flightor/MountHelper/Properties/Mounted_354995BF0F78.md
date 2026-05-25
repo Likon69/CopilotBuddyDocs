@@ -1,6 +1,6 @@
 ﻿# Flightor.MountHelper.Mounted Property
 
-Check if currently on a flying mount
+Check if currently on a flying mount. WotLK-specific: checks druid shapeshift field first because CMovementData.CanFly (0x800000) lags behind the shapeshift state by several ticks after form invocation. Using CanFly alone causes an infinite mount-spam loop for druids.
 
 ## Namespace
 [Styx.Logic.Pathing](../../../../../../../namespaces/Styx/Logic/Pathing.md)

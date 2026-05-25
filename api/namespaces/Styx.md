@@ -50,6 +50,7 @@ Contains the core bot engine types.
 | Public enumeration | [GraphicsApi](../classes/Styx/GraphicsApi.md) | Represents values for Graphics Api. |
 | Public enumeration | [InventoryType](../classes/Styx/InventoryType.md) | Represents values for Inventory Type. |
 | Public enumeration | [MirrorTimerType](../classes/Styx/MirrorTimerType.md) | Represents values for Mirror Timer Type. |
+| Public enumeration | [NavType](../classes/Styx/NavType.md) | Represents values for Nav Type. |
 | Public enumeration | [NpcFlags](../classes/Styx/NpcFlags.md) | NPC flags for WoW 3.3.5a (Build 12340). Read from UNIT_NPC_FLAGS descriptor. |
 | Public enumeration | [PulseFlags](../classes/Styx/PulseFlags.md) | Represents flag values for Pulse Flags. |
 | Public enumeration | [PvPState](../classes/Styx/PvPState.md) | Represents values for Pv P State. |

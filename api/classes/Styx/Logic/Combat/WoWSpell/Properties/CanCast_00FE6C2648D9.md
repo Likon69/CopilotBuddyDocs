@@ -1,6 +1,6 @@
 ﻿# WoWSpell.CanCast Property
 
-Returns true if the spell is currently usable (power, stance, equipped items, etc.). HB 4.3.4 WoWSpell.cs: delegates to IsUsableSpell Lua. IsUsableSpell exists in the WoW 3.3.5a Lua API — returns (usable, nomana).
+Returns true if the spell is currently usable (power, stance, equipped items, etc.) AND not on cooldown. HB 4.3.4 WoWSpell.cs: delegates to IsUsableSpell Lua. IsUsableSpell in WoW 3.3.5a does NOT check cooldowns — we pre-check Cooldown (ASM-based, language-independent) so that instant off-GCD spells like Blood Fury are never reported as castable while on their 2-minute cooldown.
 
 ## Namespace
 [Styx.Logic.Combat](../../../../../../namespaces/Styx/Logic/Combat.md)

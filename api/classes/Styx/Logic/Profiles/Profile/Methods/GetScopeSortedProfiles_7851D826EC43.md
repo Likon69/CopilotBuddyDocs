@@ -1,6 +1,6 @@
 ﻿# Profile.GetScopeSortedProfiles Method
 
-Gets the scope sorted profiles.
+Returns all profiles (this + subprofiles recursively) sorted by nesting depth descending. Deepest subprofiles come first so the most specific level range wins in GetProfileForLevel. Matches HB 4.3.4 method_0 + smethod_0 behavior.
 
 ## Namespace
 [Styx.Logic.Profiles](../../../../../../namespaces/Styx/Logic/Profiles.md)

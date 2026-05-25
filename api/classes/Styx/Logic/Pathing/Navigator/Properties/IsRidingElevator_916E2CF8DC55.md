@@ -1,6 +1,6 @@
 ﻿# Navigator.IsRidingElevator Property
 
-Gets whether the player is currently riding an elevator (blocks mount-up). HB 6.2.3 pattern: MeshNavigator.method_17 cancels mount while on transport.
+true if currently riding an elevator (blocks mount-up).
 
 ## Namespace
 [Styx.Logic.Pathing](../../../../../../namespaces/Styx/Logic/Pathing.md)

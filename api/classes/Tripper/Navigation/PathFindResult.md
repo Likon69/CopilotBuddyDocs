@@ -14,7 +14,7 @@ CopilotBuddy (in CopilotBuddy.dll)
 
 ## Syntax
 ```csharp
-public sealed class PathFindResult
+public class PathFindResult
 ```
 
 The PathFindResult type exposes the following members.
@@ -37,6 +37,7 @@ The PathFindResult type exposes the following members.
 | Public property | [FailStep](PathFindResult/Properties/FailStep_415E3E48EBC7.md) | If pathfinding failed, indicates the specific failure step. Only set when Status != Success. |
 | Public property | [Flags](PathFindResult/Properties/Flags_0ECC655CDFCB.md) | Array of straight path flags for each path segment. Indicates segment type (Start, End, OffMeshConnection). |
 | Public property | [IsPartialPath](PathFindResult/Properties/IsPartialPath_0832C2D96CD1.md) | Indicates if the path is incomplete. True when destination is unreachable but a partial path was found. |
+| Public property | [Manager](PathFindResult/Properties/Manager_73D1D297A0CA.md) | Mesh manager that produced this result. HB 6.2.3 exposes this on PathFindResult for manager-level follow-up queries. |
 | Public property | [PathLength](PathFindResult/Properties/PathLength_22A3EA849D1B.md) | Gets the number of points in the path. Returns 0 if pathfinding failed. |
 | Public property | [Points](PathFindResult/Properties/Points_EBBE0A75BC72.md) | Array of world positions representing the path from start to end. Empty if pathfinding failed. |
 | Public property | [PolyTypes](PathFindResult/Properties/PolyTypes_1EFFFF2FDD24.md) | Array of area types for each path segment. Indicates terrain type (Ground, Water, Elevator, etc.). |

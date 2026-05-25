@@ -37,9 +37,10 @@ The CircularQueue<T> type exposes the following members.
 
 | | Name | Description |
 | --- | --- | --- |
+| Public property | [Count](CircularQueue_1/Properties/Count_FEF78D555CFA.md) | Total item count. In bounce mode driven by the snapshot list. |
 | Public property | [First](CircularQueue_1/Properties/First_1D13CA7FEA15.md) | Gets the first. |
+| Public property | [Mode](CircularQueue_1/Properties/Mode_5E1A6510A1FB.md) | Controls whether the queue circles or bounces. Set before first Dequeue. |
 | Public property | Capacity | Gets the capacity. (Inherited from Queue<T>.) |
-| Public property | Count | Gets the count. (Inherited from Queue<T>.) |
 
 ## Events
 
@@ -56,12 +57,13 @@ The CircularQueue<T> type exposes the following members.
 | Public method | [CycleTo(T)](CircularQueue_1/Methods/CycleTo_BB5EB8882D18.md) | Cycles to the specified item. |
 | Public method | [Dequeue](CircularQueue_1/Methods/Dequeue_F13B66BB3E95.md) | Removes and returns the next item from the queue. |
 | Public method | [Enqueue(T)](CircularQueue_1/Methods/Enqueue_2CE994F197C9.md) | Adds an item to the queue. |
+| Public method | [Peek](CircularQueue_1/Methods/Peek_307642D1936B.md) | Returns the next item without advancing. Bounce-aware. |
+| Public method | [ResetBounce](CircularQueue_1/Methods/ResetBounce_16B4A1A2A591.md) | Resets the bounce traversal to the beginning of the list. |
 | Public method | Clear | Clears the current contents. (Inherited from Queue<T>.) |
 | Public method | Contains(T) | Determines whether the collection contains the specified value. (Inherited from Queue<T>.) |
 | Public method | CopyTo(T[], int) | Copies the collection to an array. (Inherited from Queue<T>.) |
 | Public method | EnsureCapacity(int) | Ensures the collection can hold the specified number of elements. (Inherited from Queue<T>.) |
 | Public method | GetEnumerator | Gets the enumerator. (Inherited from Queue<T>.) |
-| Public method | Peek | Returns the next item without removing it. (Inherited from Queue<T>.) |
 | Public method | ToArray | Converts to array. (Inherited from Queue<T>.) |
 | Public method | TrimExcess | Sets the capacity to the actual number of elements. (Inherited from Queue<T>.) |
 | Public method | TrimExcess(int) | Sets the capacity to the actual number of elements. (Inherited from Queue<T>.) |

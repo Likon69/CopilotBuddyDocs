@@ -25,7 +25,7 @@ The ForcedMoveTo type exposes the following members.
 | | Name | Description |
 | --- | --- | --- |
 | Public constructor | [ForcedMoveTo(WoWPoint, uint)](ForcedMoveTo/Constructors/Constructor_10613E27139F.md) | Initializes a new instance of the ForcedMoveTo class. |
-| Public constructor | [ForcedMoveTo(WoWPoint, string, float, uint)](ForcedMoveTo/Constructors/Constructor_20246FE3693F.md) | Initializes a new instance of the ForcedMoveTo class. |
+| Public constructor | [ForcedMoveTo(WoWPoint, string, float, uint, NavType?)](ForcedMoveTo/Constructors/Constructor_B5154DB5CC89.md) | Initializes a new instance of the ForcedMoveTo class. |
 
 ## Properties
 
@@ -34,6 +34,7 @@ The ForcedMoveTo type exposes the following members.
 | Public property | [IsDone](ForcedMoveTo/Properties/IsDone_78EC303093CD.md) | Gets a value indicating whether is done. (Overrides ForcedBehavior.IsDone.) |
 | Public property | [Location](ForcedMoveTo/Properties/Location_104E1240563B.md) | Gets the location. |
 | Public property | [LocationName](ForcedMoveTo/Properties/LocationName_BD95186EE316.md) | Gets the location name. |
+| Public property | [NavType](ForcedMoveTo/Properties/NavType_34975DED62F5.md) | Gets the nav type. (Overrides ForcedBehavior.NavType.) |
 | Public property | [Precision](ForcedMoveTo/Properties/Precision_361BACBDB261.md) | Gets the precision. |
 | Public property | [QuestId](ForcedMoveTo/Properties/QuestId_B9AED7653AA3.md) | Gets the quest id. |
 | Public property | [Branch](ForcedBehavior/Properties/Branch_D9EDC1D2DD45.md) | The behavior tree branch for this forced behavior. Created lazily on first access. (Inherited from ForcedBehavior.) |

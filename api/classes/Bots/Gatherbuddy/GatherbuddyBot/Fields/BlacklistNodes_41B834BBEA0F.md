@@ -10,12 +10,12 @@ CopilotBuddy (in CopilotBuddy.dll)
 
 ## Syntax
 ```csharp
-public static readonly HashSet<WoWPoint> BlacklistNodes
+public static readonly Dictionary<WoWPoint, string> BlacklistNodes
 ```
 
 ## Field Value
 
-Type: HashSet<WoWPoint>
+Type: Dictionary<WoWPoint, string>
 The blacklist nodes.
 
 ## See Also

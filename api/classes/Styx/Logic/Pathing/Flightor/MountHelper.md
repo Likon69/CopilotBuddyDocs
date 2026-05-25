@@ -26,7 +26,7 @@ The Flightor.MountHelper type exposes the following members.
 | | Name | Description |
 | --- | --- | --- |
 | Public property Static member | [CanMount](MountHelper/Properties/CanMount_56B01B856FD4.md) | Check if we can mount a flying mount WotLK: Cold Weather Flying required for Northrend |
-| Public property Static member | [Mounted](MountHelper/Properties/Mounted_354995BF0F78.md) | Check if currently on a flying mount |
+| Public property Static member | [Mounted](MountHelper/Properties/Mounted_354995BF0F78.md) | Check if currently on a flying mount. WotLK-specific: checks druid shapeshift field first because CMovementData.CanFly (0x800000) lags behind the shapeshift state by several ticks after form invocation. Using CanFly alone causes an infinite mount-spam loop for druids. |
 
 ## Methods
 

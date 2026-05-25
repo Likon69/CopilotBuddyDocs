@@ -36,7 +36,7 @@ The Switch<T> type exposes the following members.
 | --- | --- | --- |
 | Protected property | [Arguments](Switch_1/Properties/Arguments_5B2A7B8CBD04.md) | The switch arguments. |
 | Protected property | [Default](Switch_1/Properties/Default_9904133D3DAD.md) | The 'default' argument to be carried out if no other switch conditions are met. |
-| Protected property | [Statement](Switch_1/Properties/Statement_91A6C51935A6.md) | The statement assigned to this Switch that will determine which logical branch to take. |
+| Protected property | [Statement](Switch_1/Properties/Statement_91A6C51935A6.md) | The statement assigned to this Switch that will determine which logical branch to take. Takes the tree context as its argument (matches HB 4.3.4 RetrieveSwitchParameterDelegate behaviour). |
 | Public property | [Children](GroupComposite/Properties/Children_5E9DED586574.md) | Gets or sets the children. (Inherited from GroupComposite.) |
 | Public property | [Selection](GroupComposite/Properties/Selection_227482EC359F.md) | Gets or sets the selection. (Inherited from GroupComposite.) |
 | Public property | [Children](Composite/Properties/Children_2024AC72E9EE.md) | Gets the children. (Inherited from Composite.) |
@@ -52,7 +52,7 @@ The Switch<T> type exposes the following members.
 | | Name | Description |
 | --- | --- | --- |
 | Protected method | [Execute(object)](Switch_1/Methods/Execute_65F830401920.md) | Executes the composite. (Overrides Composite.Execute().) |
-| Protected method | [RunSwitch](Switch_1/Methods/RunSwitch_7B0379CB16B0.md) | Runs the switch. |
+| Protected method | [RunSwitch(object)](Switch_1/Methods/RunSwitch_F3D43E30DD77.md) | Runs the switch. |
 | Public method | [AddChild(Composite)](GroupComposite/Methods/AddChild_87A01BB762E9.md) | Adds a child composite. (Inherited from GroupComposite.) |
 | Public method | [InsertChild(int, Composite)](GroupComposite/Methods/InsertChild_1C8EA4105668.md) | Inserts a child composite. (Inherited from GroupComposite.) |
 | Public method | [Start(object)](GroupComposite/Methods/Start_E59240189960.md) | Starts the bot. (Overrides Composite.Start().). (Inherited from GroupComposite.) |

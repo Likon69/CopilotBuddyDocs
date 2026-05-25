@@ -29,9 +29,10 @@ The AbilityFlags type exposes the following members.
 | Public field | [Alliance](AbilityFlags/Fields/Alliance_EC54A2F2DDE4.md) | Alliance faction access - can traverse Alliance-only areas. |
 | Public field | [Horde](AbilityFlags/Fields/Horde_99501D6A95A8.md) | Horde faction access - can traverse Horde-only areas. |
 | Public field | [Jump](AbilityFlags/Fields/Jump_CEC84EA417F5.md) | Can jump over obstacles or gaps. |
+| Public field | [KnownBuilding](AbilityFlags/Fields/KnownBuilding_A99173A325C8.md) | Known building traversal area. |
 | Public field | [None](AbilityFlags/Fields/None_3D56E5838D39.md) | No abilities specified. |
+| Public field | [OnlyWhileAlive](AbilityFlags/Fields/OnlyWhileAlive_E7263C092ADF.md) | Traversal is only valid while the character is alive. |
 | Public field | [Run](AbilityFlags/Fields/Run_C59F4B1115C6.md) | Can walk/run on ground surfaces. |
-| Public field | [RunSafe](AbilityFlags/Fields/RunSafe_1A6AE243CDF6.md) | Can run safely - areas verified as safe traversal (HB 3.3.5). |
 | Public field | [Swim](AbilityFlags/Fields/Swim_9497F4F2FE08.md) | Can swim through water. |
 | Public field | [Teleport](AbilityFlags/Fields/Teleport_492A1683D81C.md) | Can use teleport/portal mechanics. |
 | Public field | [Transport](AbilityFlags/Fields/Transport_30C1AB9BF845.md) | Can use transport vehicles (boats, zeppelins, elevators). |

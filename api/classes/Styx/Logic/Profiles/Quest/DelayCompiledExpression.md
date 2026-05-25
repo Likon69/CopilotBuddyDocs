@@ -32,6 +32,7 @@ The DelayCompiledExpression type exposes the following members.
 | Public property | [CallableExpression](DelayCompiledExpression/Properties/CallableExpression_D54B728C046D.md) | Gets the callable expression. |
 | Public property | [DelegateType](DelayCompiledExpression/Properties/DelegateType_ED1373D04988.md) | Gets the delegate type. |
 | Public property | [ExpressionString](DelayCompiledExpression/Properties/ExpressionString_7E261C37054D.md) | Gets the expression string. |
+| Public property | [IsCompiled](DelayCompiledExpression/Properties/IsCompiled_1A23F73F98EC.md) | True if the owning CompileBatch compiled successfully and this expression is callable. |
 
 ## Methods
 

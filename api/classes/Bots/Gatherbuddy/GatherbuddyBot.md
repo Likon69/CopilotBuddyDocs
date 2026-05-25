@@ -1,6 +1,6 @@
 ﻿# GatherbuddyBot Class
 
-GatherBuddy - Full-featured gathering bot for WoW 3.3.5a (WotLK). Harvests herbs, minerals, chests, skins mobs along a waypoint route. Supports profile vendors, mailboxes, blackspots, sell/mail quality filters, full combat behaviors, death handling with spirit healer, and session timers.
+The main gatherbuddy bot implementation.
 
 ## Inheritance Hierarchy
 System.Object
@@ -31,31 +31,31 @@ The GatherbuddyBot type exposes the following members.
 | | Name | Description |
 | --- | --- | --- |
 | Public field Static member | [BlacklistNodes](GatherbuddyBot/Fields/BlacklistNodes_41B834BBEA0F.md) | Represents the blacklist nodes. |
+| Public field Static member | [NodeCollectionCount](GatherbuddyBot/Fields/NodeCollectionCount_377C6F009C13.md) | Represents the node collection count. |
 
 ## Properties
 
 | | Name | Description |
 | --- | --- | --- |
-| Public property | [ConfigurationForm](GatherbuddyBot/Properties/ConfigurationForm_FE877FC49D76.md) | Returns the settings window shown when "Bot Config" is clicked. (Overrides BotBase.ConfigurationForm.) |
-| Public property | [HerbsGathered](GatherbuddyBot/Properties/HerbsGathered_134EF5585493.md) | Gets the herbs gathered. |
+| Public property | [ConfigurationForm](GatherbuddyBot/Properties/ConfigurationForm_FE877FC49D76.md) | Gets the configuration form. (Overrides BotBase.ConfigurationForm.) |
 | Public property | [IsPrimaryType](GatherbuddyBot/Properties/IsPrimaryType_86D62A4ACAA3.md) | Gets a value indicating whether is primary type. (Overrides BotBase.IsPrimaryType.) |
-| Public property | [MineralsGathered](GatherbuddyBot/Properties/MineralsGathered_E68601AB876C.md) | Gets the minerals gathered. |
 | Public property | [Name](GatherbuddyBot/Properties/Name_FCB40C88FEB9.md) | Gets the name. (Overrides BotBase.Name.) |
-| Public property | [NodesGathered](GatherbuddyBot/Properties/NodesGathered_2CCCDA7D1C14.md) | Session statistics. |
 | Public property | [PulseFlags](GatherbuddyBot/Properties/PulseFlags_2ACF33EC8405.md) | Gets the pulse flags. (Overrides BotBase.PulseFlags.) |
-| Public property | [RequirementsMet](GatherbuddyBot/Properties/RequirementsMet_B46B7E8DEC9E.md) | Gets a value indicating whether requirements met. (Overrides BotBase.RequirementsMet.) |
 | Public property | [RequiresProfile](GatherbuddyBot/Properties/RequiresProfile_9E5E7EC45D21.md) | Gets a value indicating whether requires profile. (Overrides BotBase.RequiresProfile.) |
 | Public property | [Root](GatherbuddyBot/Properties/Root_C3497671FC4A.md) | Gets the root. (Overrides BotBase.Root.) |
-| Public property | [SessionTime](GatherbuddyBot/Properties/SessionTime_869062C83183.md) | Gets the session time. |
+| Public property Static member | [RunningTime](GatherbuddyBot/Properties/RunningTime_CCBFD22109C1.md) | Elapsed time since the last Start() call. |
 | Public property | Initialized | Gets a value indicating whether initialized. (Inherited from BotBase.) |
+| Public property | RequirementsMet | Gets a value indicating whether requirements met. (Inherited from BotBase.) |
 
 ## Methods
 
 | | Name | Description |
 | --- | --- | --- |
+| Public method Static member | [DiagnoseNodeDetection](GatherbuddyBot/Methods/DiagnoseNodeDetection_CAE418745E90.md) | Logs herb and mineral counts visible in the ObjectManager. Useful for diagnosing why no nodes are detected. |
 | Public method | [Initialize](GatherbuddyBot/Methods/Initialize_8278EBB5E306.md) | Initializes the component. (Overrides BotBase.Initialize().) |
 | Public method | [Pulse](GatherbuddyBot/Methods/Pulse_1F976D48D0FA.md) | Executes one bot pulse. (Overrides BotBase.Pulse().) |
 | Public method | [Start](GatherbuddyBot/Methods/Start_9E11621FAC97.md) | Starts the bot. (Overrides BotBase.Start().) |
+| Public method Static member | [StatusReport](GatherbuddyBot/Methods/StatusReport_2B49184004A4.md) | Prints a harvest summary to the log. Can be called at any time. |
 | Public method | [Stop](GatherbuddyBot/Methods/Stop_949064CD09A1.md) | Stops the bot. (Overrides BotBase.Stop().) |
 | Public method | DoInitialize | Initializes the component. (Inherited from BotBase.) |
 | Public method | OnPaused | HB 6.2.3 method_0: Called when bot is paused. (Inherited from BotBase.) |

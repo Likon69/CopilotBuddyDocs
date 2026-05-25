@@ -1,6 +1,6 @@
 ﻿# Navigator.GetRunStatusFromMoveResult Method
 
-Converts a MoveResult to a TreeSharp RunStatus.
+Converts a MoveResult to a TreeSharp RunStatus. Direct port of HB 6.2.3 Navigator.GetRunStatusFromMoveResult.
 
 ## Namespace
 [Styx.Logic.Pathing](../../../../../../namespaces/Styx/Logic/Pathing.md)

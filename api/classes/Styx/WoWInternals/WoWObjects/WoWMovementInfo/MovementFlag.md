@@ -29,7 +29,6 @@ The WoWMovementInfo.MovementFlag type exposes the following members.
 | Public field | [Backward](MovementFlag/Fields/Backward_E073C6065415.md) | Represents the backward value. |
 | Public field | [CanFly](MovementFlag/Fields/CanFly_16AB466C5C6D.md) | Represents the can fly value. |
 | Public field | [Descending](MovementFlag/Fields/Descending_1284102DEBE7.md) | Represents the descending value. |
-| Public field | [DisableGravity](MovementFlag/Fields/DisableGravity_63CD57D86DD6.md) | Represents the disable gravity value. |
 | Public field | [FallMask](MovementFlag/Fields/FallMask_DF44E6FA2D8B.md) | Represents the fall mask value. |
 | Public field | [Falling](MovementFlag/Fields/Falling_4C0E28036756.md) | Represents the falling value. |
 | Public field | [FallingFar](MovementFlag/Fields/FallingFar_EF0B52EA217B.md) | Represents the falling far value. |
@@ -37,10 +36,10 @@ The WoWMovementInfo.MovementFlag type exposes the following members.
 | Public field | [Flying](MovementFlag/Fields/Flying_E4A5B3490C81.md) | Represents the flying value. |
 | Public field | [Forward](MovementFlag/Fields/Forward_BD28428CA863.md) | Represents the forward value. |
 | Public field | [Hover](MovementFlag/Fields/Hover_FEC5C4DCD2D8.md) | Represents the hover value. |
+| Public field | [Levitating](MovementFlag/Fields/Levitating_1471156801F9.md) | Represents the levitating value. |
 | Public field | [MotionMask](MovementFlag/Fields/MotionMask_D65AEDB1563A.md) | Represents the motion mask value. |
 | Public field | [MoveMask](MovementFlag/Fields/MoveMask_C5D8EEA586FF.md) | Represents the move mask value. |
 | Public field | [None](MovementFlag/Fields/None_E170AD8C35A7.md) | Represents the none value. |
-| Public field | [OnTransport](MovementFlag/Fields/OnTransport_1A838B152E9A.md) | Represents the on transport value. |
 | Public field | [PendingBackward](MovementFlag/Fields/PendingBackward_8D1A640DCF26.md) | Represents the pending backward value. |
 | Public field | [PendingForward](MovementFlag/Fields/PendingForward_04B10C138B97.md) | Represents the pending forward value. |
 | Public field | [PendingRoot](MovementFlag/Fields/PendingRoot_B0351863ABE6.md) | Represents the pending root value. |
@@ -48,10 +47,15 @@ The WoWMovementInfo.MovementFlag type exposes the following members.
 | Public field | [PendingSTrFlagRight](MovementFlag/Fields/PendingSTrFlagRight_76BBF24F32ED.md) | Represents the pending s tr flag right value. |
 | Public field | [PendingSTrFlagStop](MovementFlag/Fields/PendingSTrFlagStop_7E5A5275F51B.md) | Represents the pending s tr flag stop value. |
 | Public field | [PendingStop](MovementFlag/Fields/PendingStop_E06BBF7E6066.md) | Represents the pending stop value. |
+| Public field | [PendingStrafeLeft](MovementFlag/Fields/PendingStrafeLeft_5A881DBE256A.md) | Represents the pending strafe left value. |
+| Public field | [PendingStrafeRight](MovementFlag/Fields/PendingStrafeRight_748CFEF08118.md) | Represents the pending strafe right value. |
+| Public field | [PendingStrafeStop](MovementFlag/Fields/PendingStrafeStop_345E311086A1.md) | Represents the pending strafe stop value. |
 | Public field | [PitchDown](MovementFlag/Fields/PitchDown_23B89CC93F2F.md) | Represents the pitch down value. |
 | Public field | [PitchMask](MovementFlag/Fields/PitchMask_141275D113CD.md) | Represents the pitch mask value. |
 | Public field | [PitchUp](MovementFlag/Fields/PitchUp_69163C836561.md) | Represents the pitch up value. |
+| Public field | [PlayerFlag](MovementFlag/Fields/PlayerFlag_160F5CF3CF73.md) | Represents the player flag value. |
 | Public field | [Root](MovementFlag/Fields/Root_DE04E0330BB5.md) | Represents the root value. |
+| Public field | [SafeFall](MovementFlag/Fields/SafeFall_34615E280804.md) | Represents the safe fall value. |
 | Public field | [SplineElevation](MovementFlag/Fields/SplineElevation_FF27865AC5F3.md) | Represents the spline elevation value. |
 | Public field | [SplineEnabled](MovementFlag/Fields/SplineEnabled_132D8E93D25C.md) | Represents the spline enabled value. |
 | Public field | [StrafeLeft](MovementFlag/Fields/StrafeLeft_8671921F2968.md) | Represents the strafe left value. |
@@ -61,7 +65,9 @@ The WoWMovementInfo.MovementFlag type exposes the following members.
 | Public field | [TurnLeft](MovementFlag/Fields/TurnLeft_F96D783D0A16.md) | Represents the turn left value. |
 | Public field | [TurnMask](MovementFlag/Fields/TurnMask_8C75F8EE9EAF.md) | Represents the turn mask value. |
 | Public field | [TurnRight](MovementFlag/Fields/TurnRight_FC5053E1C6FD.md) | Represents the turn right value. |
+| Public field | [Walk](MovementFlag/Fields/Walk_E30F5C86C832.md) | Represents the walk value. |
 | Public field | [Walking](MovementFlag/Fields/Walking_93E20BC39A59.md) | Represents the walking value. |
+| Public field | [WaterWalking](MovementFlag/Fields/WaterWalking_5A1E27E8E249.md) | Represents the water walking value. |
 | Public field | [Waterwalking](MovementFlag/Fields/Waterwalking_1588218C7692.md) | Represents the waterwalking value. |
 
 ## Methods

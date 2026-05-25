@@ -33,8 +33,6 @@ The GatherBuddySettingsViewModel type exposes the following members.
 | Public property | [BottingHours](GatherBuddySettingsViewModel/Properties/BottingHours_2AA67F8A814C.md) | Gets or sets the botting hours. |
 | Public property | [FaceNodes](GatherBuddySettingsViewModel/Properties/FaceNodes_F18A7C59A719.md) | Gets or sets a value indicating whether face nodes. |
 | Public property | [FindVendorsAutomatically](GatherBuddySettingsViewModel/Properties/FindVendorsAutomatically_CC8B0A47E142.md) | Gets or sets a value indicating whether find vendors automatically. |
-| Public property | [FlyingAltitude](GatherBuddySettingsViewModel/Properties/FlyingAltitude_FC64044E7F5E.md) | Gets or sets the flying altitude. |
-| Public property | [FlyingDescentRange](GatherBuddySettingsViewModel/Properties/FlyingDescentRange_7C0EC9C4B318.md) | Gets or sets the flying descent range. |
 | Public property | [GatherChests](GatherBuddySettingsViewModel/Properties/GatherChests_0297F09BAEB5.md) | Gets or sets a value indicating whether gather chests. |
 | Public property | [GatherHerbs](GatherBuddySettingsViewModel/Properties/GatherHerbs_7EDCE476F4BD.md) | Gets or sets a value indicating whether gather herbs. |
 | Public property | [GatherMinerals](GatherBuddySettingsViewModel/Properties/GatherMinerals_15A01CC1DA3A.md) | Gets or sets a value indicating whether gather minerals. |
@@ -65,7 +63,6 @@ The GatherBuddySettingsViewModel type exposes the following members.
 | Public property | [SellPurple](GatherBuddySettingsViewModel/Properties/SellPurple_619F4AF8AC6F.md) | Gets or sets a value indicating whether sell purple. |
 | Public property | [SellWhite](GatherBuddySettingsViewModel/Properties/SellWhite_C2FEF73158B2.md) | Gets or sets a value indicating whether sell white. |
 | Public property | [SkinMobs](GatherBuddySettingsViewModel/Properties/SkinMobs_D10DB91AF4FA.md) | Gets or sets a value indicating whether skin mobs. |
-| Public property | [UseFlying](GatherBuddySettingsViewModel/Properties/UseFlying_1DCC9B9A4C6C.md) | Gets or sets a value indicating whether use flying. |
 | Public property | [UseSpiritHealer](GatherBuddySettingsViewModel/Properties/UseSpiritHealer_07205A96A9F0.md) | Gets or sets a value indicating whether use spirit healer. |
 | Public property | [VendorWhenFull](GatherBuddySettingsViewModel/Properties/VendorWhenFull_3DD321F2789F.md) | Gets or sets a value indicating whether vendor when full. |
 | Public property | [WaitRezSickness](GatherBuddySettingsViewModel/Properties/WaitRezSickness_BE704120E6B9.md) | Gets or sets a value indicating whether wait rez sickness. |

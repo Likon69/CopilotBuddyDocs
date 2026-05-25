@@ -37,6 +37,7 @@ The ForcedQuestTurnIn type exposes the following members.
 | Public property | [QuestId](ForcedQuestTurnIn/Properties/QuestId_1B49E99D1BF5.md) | Gets the quest id. |
 | Public property | [QuestName](ForcedQuestTurnIn/Properties/QuestName_5C8ADFAF96E1.md) | Gets the quest name. |
 | Public property | [Branch](ForcedBehavior/Properties/Branch_D9EDC1D2DD45.md) | The behavior tree branch for this forced behavior. Created lazily on first access. (Inherited from ForcedBehavior.) |
+| Public property | [NavType](ForcedBehavior/Properties/NavType_41A3D52F0288.md) | NavType for this behavior. null = auto-detect (Flightor.CanFly). Legion: ForcedBehavior.NavType (nullable). (Inherited from ForcedBehavior.) |
 
 ## Methods
 
